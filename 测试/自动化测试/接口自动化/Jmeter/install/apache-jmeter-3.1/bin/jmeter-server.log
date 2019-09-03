@@ -1,0 +1,194 @@
+2018/07/03 16:27:09 INFO  - jmeter.util.JMeterUtils: Setting Locale to zh_CN 
+2018/07/03 16:27:09 INFO  - jmeter.JMeter: Loading user properties from: D:\workspace\Jmeter\apache-jmeter-3.1\bin\user.properties 
+2018/07/03 16:27:09 INFO  - jmeter.JMeter: Loading system properties from: D:\workspace\Jmeter\apache-jmeter-3.1\bin\system.properties 
+2018/07/03 16:27:09 INFO  - jmeter.JMeter: Copyright (c) 1998-2016 The Apache Software Foundation 
+2018/07/03 16:27:09 INFO  - jmeter.JMeter: Version 3.1 r1770033 
+2018/07/03 16:27:09 INFO  - jmeter.JMeter: java.version=1.8.0_112 
+2018/07/03 16:27:09 INFO  - jmeter.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM 
+2018/07/03 16:27:09 INFO  - jmeter.JMeter: os.name=Windows 10 
+2018/07/03 16:27:09 INFO  - jmeter.JMeter: os.arch=amd64 
+2018/07/03 16:27:09 INFO  - jmeter.JMeter: os.version=10.0 
+2018/07/03 16:27:09 INFO  - jmeter.JMeter: file.encoding=GBK 
+2018/07/03 16:27:09 INFO  - jmeter.JMeter: Max memory     =2068840448 
+2018/07/03 16:27:09 INFO  - jmeter.JMeter: Available Processors =4 
+2018/07/03 16:27:09 INFO  - jmeter.JMeter: Default Locale=中文 (中国) 
+2018/07/03 16:27:09 INFO  - jmeter.JMeter: JMeter  Locale=中文 (中国) 
+2018/07/03 16:27:09 INFO  - jmeter.JMeter: JMeterHome=D:\workspace\Jmeter\apache-jmeter-3.1 
+2018/07/03 16:27:09 INFO  - jmeter.JMeter: user.dir  =D:\workspace\Jmeter\apache-jmeter-3.1\bin 
+2018/07/03 16:27:09 INFO  - jmeter.JMeter: PWD       =D:\workspace\Jmeter\apache-jmeter-3.1\bin 
+2018/07/03 16:27:09 INFO  - jmeter.JMeter: IP: 172.16.71.229 Name: DESKTOP-TRMOAJQ FullName: windows10.microdone.cn 
+2018/07/03 16:27:09 INFO  - jmeter.engine.RemoteJMeterEngineImpl: Starting backing engine on 1099 
+2018/07/03 16:27:09 INFO  - jmeter.engine.RemoteJMeterEngineImpl: System property 'java.rmi.server.hostname' is not defined, using localHost address 
+2018/07/03 16:27:09 INFO  - jmeter.engine.RemoteJMeterEngineImpl: Local IP address=172.16.71.229 
+2018/07/03 16:27:09 INFO  - jmeter.engine.RemoteJMeterEngineImpl: IP address is a site-local address; this may cause problems with remote access.
+	Can be overridden by defining the system property 'java.rmi.server.hostname' - see jmeter-server script file 
+2018/07/03 16:27:09 INFO  - jmeter.engine.RemoteJMeterEngineImpl: Creating RMI registry (server.rmi.create=true) 
+2018/07/03 16:27:09 INFO  - jmeter.engine.RemoteJMeterEngineImpl: Bound to registry on port 1099 
+2018/07/03 16:27:12 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2018/07/03 16:27:12 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
+2018/07/03 16:27:12 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
+2018/07/03 16:27:12 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
+2018/07/03 16:27:12 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
+2018/07/03 16:27:12 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser 
+2018/07/03 16:27:12 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser 
+2018/07/03 16:27:12 INFO  - jmeter.samplers.StandardSampleSender: Using StandardSampleSender for this test run 
+2018/07/03 16:27:12 INFO  - jmeter.samplers.StandardSampleSender: Using StandardSampleSender for this test run 
+2018/07/03 16:27:12 INFO  - jmeter.engine.RemoteJMeterEngineImpl: Creating JMeter engine on host 172.16.71.229:1099 base '.' 
+2018/07/03 16:27:12 INFO  - jmeter.engine.RemoteJMeterEngineImpl: Remote client host: 172.16.71.248 
+2018/07/03 16:27:12 INFO  - jmeter.services.FileServer: Default base='D:\workspace\Jmeter\apache-jmeter-3.1\bin' 
+2018/07/03 16:27:12 INFO  - jmeter.services.FileServer: Set new base='.' 
+2018/07/03 16:27:12 INFO  - jmeter.engine.StandardJMeterEngine: Applying properties {} 
+2018/07/03 16:27:12 INFO  - jmeter.engine.RemoteJMeterEngineImpl: Running test 
+2018/07/03 16:27:12 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2018/07/03 16:27:12 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2018/07/03 16:27:12 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must contain the string: '.functions.' 
+2018/07/03 16:27:12 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must not contain the string: '.gui.' 
+2018/07/03 16:27:12 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : 多用户移动文件 
+2018/07/03 16:27:12 INFO  - jmeter.engine.StandardJMeterEngine: Starting 2 threads for group 多用户移动文件. 
+2018/07/03 16:27:12 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2018/07/03 16:27:12 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 2 ramp-up 1 perThread 500.0 delayedStart=false 
+2018/07/03 16:27:12 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2018/07/03 16:27:12 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2018/07/03 16:27:12 INFO  - jmeter.threads.JMeterThread: Thread started: 多用户移动文件 1-1 
+2018/07/03 16:27:12 INFO  - jmeter.services.FileServer: Stored: C:\uploadfile\large\filespath.csv 
+2018/07/03 16:27:12 INFO  - jmeter.protocol.http.sampler.HTTPJavaImpl: Maximum connection retries = 0 
+2018/07/03 16:27:12 INFO  - jmeter.samplers.SampleResult: Note: Sample TimeStamps are START times 
+2018/07/03 16:27:12 INFO  - jmeter.samplers.SampleResult: sampleresult.default.encoding is set to utf-8 
+2018/07/03 16:27:12 INFO  - jmeter.samplers.SampleResult: sampleresult.useNanoTime=true 
+2018/07/03 16:27:12 INFO  - jmeter.samplers.SampleResult: sampleresult.nanoThreadSleep=5000 
+2018/07/03 16:27:13 INFO  - jmeter.threads.JMeterThread: Thread started: 多用户移动文件 1-2 
+2018/07/03 16:27:27 ERROR - jmeter.threads.JMeterThread: Test failed! java.lang.OutOfMemoryError: Java heap space
+	at java.util.Arrays.copyOf(Unknown Source)
+	at java.io.ByteArrayOutputStream.grow(Unknown Source)
+	at java.io.ByteArrayOutputStream.ensureCapacity(Unknown Source)
+	at java.io.ByteArrayOutputStream.write(Unknown Source)
+	at sun.net.www.http.PosterOutputStream.write(Unknown Source)
+	at org.apache.jmeter.protocol.http.sampler.PostWriter.writeFileToStream(PostWriter.java:417)
+	at org.apache.jmeter.protocol.http.sampler.PostWriter.sendPostData(PostWriter.java:123)
+	at org.apache.jmeter.protocol.http.sampler.HTTPJavaImpl.sendPostData(HTTPJavaImpl.java:109)
+	at org.apache.jmeter.protocol.http.sampler.HTTPJavaImpl.sample(HTTPJavaImpl.java:506)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1166)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1155)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:475)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:418)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:249)
+	at java.lang.Thread.run(Unknown Source)
+
+2018/07/03 16:27:27 INFO  - jmeter.threads.JMeterThread: Thread finished: 多用户移动文件 1-1 
+2018/07/03 16:27:31 ERROR - jmeter.threads.JMeterThread: Test failed! java.lang.OutOfMemoryError: Java heap space
+	at java.util.Arrays.copyOf(Unknown Source)
+	at java.io.ByteArrayOutputStream.grow(Unknown Source)
+	at java.io.ByteArrayOutputStream.ensureCapacity(Unknown Source)
+	at java.io.ByteArrayOutputStream.write(Unknown Source)
+	at sun.net.www.http.PosterOutputStream.write(Unknown Source)
+	at org.apache.jmeter.protocol.http.sampler.PostWriter.writeFileToStream(PostWriter.java:417)
+	at org.apache.jmeter.protocol.http.sampler.PostWriter.sendPostData(PostWriter.java:123)
+	at org.apache.jmeter.protocol.http.sampler.HTTPJavaImpl.sendPostData(HTTPJavaImpl.java:109)
+	at org.apache.jmeter.protocol.http.sampler.HTTPJavaImpl.sample(HTTPJavaImpl.java:506)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1166)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1155)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:475)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:418)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:249)
+	at java.lang.Thread.run(Unknown Source)
+
+2018/07/03 16:27:31 INFO  - jmeter.threads.JMeterThread: Thread finished: 多用户移动文件 1-2 
+2018/07/03 16:27:31 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2018/07/03 16:27:31 INFO  - jmeter.services.FileServer: Close: C:\uploadfile\large\filespath.csv 
+2018/07/03 16:27:31 INFO  - jmeter.samplers.StandardSampleSender: Test Ended on 172.16.71.229:1099 
+2018/07/03 16:27:31 INFO  - jmeter.samplers.StandardSampleSender: Test Ended on 172.16.71.229:1099 
+2018/07/03 16:27:31 INFO  - jmeter.engine.StandardJMeterEngine: Test has ended on host 172.16.71.229:1099 
+2018/07/03 16:30:55 INFO  - jmeter.samplers.StandardSampleSender: Using StandardSampleSender for this test run 
+2018/07/03 16:30:55 INFO  - jmeter.samplers.StandardSampleSender: Using StandardSampleSender for this test run 
+2018/07/03 16:30:55 INFO  - jmeter.engine.RemoteJMeterEngineImpl: Creating JMeter engine on host 172.16.71.229:1099 base '.' 
+2018/07/03 16:30:55 INFO  - jmeter.engine.RemoteJMeterEngineImpl: Remote client host: 172.16.71.248 
+2018/07/03 16:30:55 INFO  - jmeter.services.FileServer: Set new base='.' 
+2018/07/03 16:30:55 INFO  - jmeter.engine.RemoteJMeterEngineImpl: Cleaning previously set properties {} 
+2018/07/03 16:30:55 INFO  - jmeter.engine.StandardJMeterEngine: Applying properties {} 
+2018/07/03 16:30:55 INFO  - jmeter.engine.RemoteJMeterEngineImpl: Running test 
+2018/07/03 16:30:55 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2018/07/03 16:30:55 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2018/07/03 16:30:55 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : 多用户移动文件 
+2018/07/03 16:30:55 INFO  - jmeter.engine.StandardJMeterEngine: Starting 2 threads for group 多用户移动文件. 
+2018/07/03 16:30:55 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2018/07/03 16:30:55 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 2 ramp-up 1 perThread 500.0 delayedStart=false 
+2018/07/03 16:30:55 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2018/07/03 16:30:55 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2018/07/03 16:30:55 INFO  - jmeter.threads.JMeterThread: Thread started: 多用户移动文件 1-1 
+2018/07/03 16:30:55 INFO  - jmeter.services.FileServer: Stored: C:\uploadfile\large\filespath.csv 
+2018/07/03 16:30:55 INFO  - jmeter.threads.JMeterThread: Thread started: 多用户移动文件 1-2 
+2018/07/03 16:31:11 ERROR - jmeter.threads.JMeterThread: Test failed! java.lang.OutOfMemoryError: Java heap space
+	at java.util.Arrays.copyOf(Unknown Source)
+	at java.io.ByteArrayOutputStream.grow(Unknown Source)
+	at java.io.ByteArrayOutputStream.ensureCapacity(Unknown Source)
+	at java.io.ByteArrayOutputStream.write(Unknown Source)
+	at sun.net.www.http.PosterOutputStream.write(Unknown Source)
+	at org.apache.jmeter.protocol.http.sampler.PostWriter.writeFileToStream(PostWriter.java:417)
+	at org.apache.jmeter.protocol.http.sampler.PostWriter.sendPostData(PostWriter.java:123)
+	at org.apache.jmeter.protocol.http.sampler.HTTPJavaImpl.sendPostData(HTTPJavaImpl.java:109)
+	at org.apache.jmeter.protocol.http.sampler.HTTPJavaImpl.sample(HTTPJavaImpl.java:506)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1166)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1155)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:475)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:418)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:249)
+	at java.lang.Thread.run(Unknown Source)
+
+2018/07/03 16:31:11 INFO  - jmeter.threads.JMeterThread: Thread finished: 多用户移动文件 1-2 
+2018/07/03 16:31:12 ERROR - jmeter.threads.JMeterThread: Test failed! java.lang.OutOfMemoryError: Java heap space
+	at java.util.Arrays.copyOf(Unknown Source)
+	at java.io.ByteArrayOutputStream.grow(Unknown Source)
+	at java.io.ByteArrayOutputStream.ensureCapacity(Unknown Source)
+	at java.io.ByteArrayOutputStream.write(Unknown Source)
+	at sun.net.www.http.PosterOutputStream.write(Unknown Source)
+	at org.apache.jmeter.protocol.http.sampler.PostWriter.writeFileToStream(PostWriter.java:417)
+	at org.apache.jmeter.protocol.http.sampler.PostWriter.sendPostData(PostWriter.java:123)
+	at org.apache.jmeter.protocol.http.sampler.HTTPJavaImpl.sendPostData(HTTPJavaImpl.java:109)
+	at org.apache.jmeter.protocol.http.sampler.HTTPJavaImpl.sample(HTTPJavaImpl.java:506)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1166)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1155)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:475)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:418)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:249)
+	at java.lang.Thread.run(Unknown Source)
+
+2018/07/03 16:31:12 INFO  - jmeter.threads.JMeterThread: Thread finished: 多用户移动文件 1-1 
+2018/07/03 16:31:12 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2018/07/03 16:31:12 INFO  - jmeter.services.FileServer: Close: C:\uploadfile\large\filespath.csv 
+2018/07/03 16:31:12 INFO  - jmeter.samplers.StandardSampleSender: Test Ended on 172.16.71.229:1099 
+2018/07/03 16:31:12 INFO  - jmeter.samplers.StandardSampleSender: Test Ended on 172.16.71.229:1099 
+2018/07/03 16:31:12 INFO  - jmeter.engine.StandardJMeterEngine: Test has ended on host 172.16.71.229:1099 
+2018/07/03 16:32:57 INFO  - jmeter.samplers.StandardSampleSender: Using StandardSampleSender for this test run 
+2018/07/03 16:32:57 INFO  - jmeter.samplers.StandardSampleSender: Using StandardSampleSender for this test run 
+2018/07/03 16:32:57 INFO  - jmeter.engine.RemoteJMeterEngineImpl: Creating JMeter engine on host 172.16.71.229:1099 base '.' 
+2018/07/03 16:32:57 INFO  - jmeter.engine.RemoteJMeterEngineImpl: Remote client host: 172.16.71.248 
+2018/07/03 16:32:57 INFO  - jmeter.services.FileServer: Set new base='.' 
+2018/07/03 16:32:57 INFO  - jmeter.engine.RemoteJMeterEngineImpl: Cleaning previously set properties {} 
+2018/07/03 16:32:57 INFO  - jmeter.engine.StandardJMeterEngine: Applying properties {} 
+2018/07/03 16:32:57 INFO  - jmeter.engine.RemoteJMeterEngineImpl: Running test 
+2018/07/03 16:32:57 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2018/07/03 16:32:57 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2018/07/03 16:32:57 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : 多用户移动文件 
+2018/07/03 16:32:57 INFO  - jmeter.engine.StandardJMeterEngine: Starting 2 threads for group 多用户移动文件. 
+2018/07/03 16:32:57 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2018/07/03 16:32:57 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 2 ramp-up 1 perThread 500.0 delayedStart=false 
+2018/07/03 16:32:57 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2018/07/03 16:32:57 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2018/07/03 16:32:57 INFO  - jmeter.threads.JMeterThread: Thread started: 多用户移动文件 1-1 
+2018/07/03 16:32:57 INFO  - jmeter.services.FileServer: Stored: C:\uploadfile\large\filespath.csv 
+2018/07/03 16:32:58 INFO  - jmeter.threads.JMeterThread: Thread started: 多用户移动文件 1-2 
+2018/07/03 16:33:18 ERROR - jmeter.threads.JMeterThread: Test failed! java.lang.OutOfMemoryError: Java heap space
+
+2018/07/03 16:33:18 INFO  - jmeter.threads.JMeterThread: Thread finished: 多用户移动文件 1-1 
+2018/07/03 16:33:21 ERROR - jmeter.threads.JMeterThread: Test failed! java.lang.OutOfMemoryError: Java heap space
+
+2018/07/03 16:33:21 INFO  - jmeter.threads.JMeterThread: Thread finished: 多用户移动文件 1-2 
+2018/07/03 16:33:21 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2018/07/03 16:33:21 INFO  - jmeter.services.FileServer: Close: C:\uploadfile\large\filespath.csv 
+2018/07/03 16:33:21 INFO  - jmeter.samplers.StandardSampleSender: Test Ended on 172.16.71.229:1099 
+2018/07/03 16:33:21 INFO  - jmeter.samplers.StandardSampleSender: Test Ended on 172.16.71.229:1099 
+2018/07/03 16:33:21 INFO  - jmeter.engine.StandardJMeterEngine: Test has ended on host 172.16.71.229:1099 

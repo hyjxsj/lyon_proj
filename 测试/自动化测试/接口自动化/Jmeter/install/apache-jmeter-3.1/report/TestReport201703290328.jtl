@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="44" it="0" lt="44" ct="0" ts="1490772503133" s="false" lb="新增用户组" rc="403" rm="Forbidden" tn="多用户日常操作 1-1" dt="text" by="413" sby="0" ng="3" na="3"/>
+<sample t="44" it="445" lt="44" ct="0" ts="1490772502700" s="false" lb="新增用户组" rc="" rm="Number of samples in transaction : 1, number of failing samples : 1" tn="多用户日常操作 1-1" dt="" by="413" sby="0" ng="3" na="3"/>
+<httpSample t="12" it="0" lt="12" ct="0" ts="1490772503238" s="false" lb="新增用户组" rc="403" rm="Forbidden" tn="多用户日常操作 1-2" dt="text" by="413" sby="0" ng="3" na="3"/>
+<sample t="12" it="342" lt="12" ct="0" ts="1490772502896" s="false" lb="新增用户组" rc="" rm="Number of samples in transaction : 1, number of failing samples : 1" tn="多用户日常操作 1-2" dt="" by="413" sby="0" ng="3" na="3"/>
+<httpSample t="13" it="0" lt="13" ct="0" ts="1490772503566" s="false" lb="新增用户组" rc="403" rm="Forbidden" tn="多用户日常操作 1-3" dt="text" by="413" sby="0" ng="5" na="5"/>
+<sample t="13" it="469" lt="13" ct="0" ts="1490772503099" s="false" lb="新增用户组" rc="" rm="Number of samples in transaction : 1, number of failing samples : 1" tn="多用户日常操作 1-3" dt="" by="413" sby="0" ng="5" na="5"/>
+<httpSample t="13" it="0" lt="13" ct="0" ts="1490772503720" s="false" lb="新增用户组" rc="403" rm="Forbidden" tn="多用户日常操作 1-4" dt="text" by="413" sby="0" ng="5" na="5"/>
+<sample t="13" it="423" lt="13" ct="0" ts="1490772503299" s="false" lb="新增用户组" rc="" rm="Number of samples in transaction : 1, number of failing samples : 1" tn="多用户日常操作 1-4" dt="" by="413" sby="0" ng="5" na="5"/>
+<httpSample t="16" it="0" lt="16" ct="0" ts="1490772503887" s="false" lb="新增用户组" rc="403" rm="Forbidden" tn="多用户日常操作 1-5" dt="text" by="413" sby="0" ng="5" na="5"/>
+<sample t="16" it="389" lt="16" ct="0" ts="1490772503499" s="false" lb="新增用户组" rc="" rm="Number of samples in transaction : 1, number of failing samples : 1" tn="多用户日常操作 1-5" dt="" by="413" sby="0" ng="5" na="5"/>
+<httpSample t="5681" it="0" lt="5681" ct="47" ts="1490772504972" s="true" lb="post文件上传" rc="200" rm="OK" tn="多用户日常操作 1-2" dt="text" by="303" sby="2635" ng="5" na="5"/>
+<sample t="5681" it="1722" lt="5681" ct="47" ts="1490772503251" s="true" lb="多用户文件上传线程组" rc="200" rm="Number of samples in transaction : 1, number of failing samples : 0" tn="多用户日常操作 1-2" dt="" by="303" sby="2635" ng="5" na="5"/>
+<httpSample t="5545" it="0" lt="5545" ct="6" ts="1490772505548" s="true" lb="post文件上传" rc="200" rm="OK" tn="多用户日常操作 1-3" dt="text" by="303" sby="2677" ng="5" na="5"/>
+<sample t="5545" it="1968" lt="5545" ct="6" ts="1490772503581" s="true" lb="多用户文件上传线程组" rc="200" rm="Number of samples in transaction : 1, number of failing samples : 0" tn="多用户日常操作 1-3" dt="" by="303" sby="2677" ng="5" na="5"/>
+<httpSample t="5905" it="0" lt="5905" ct="9" ts="1490772505419" s="true" lb="post文件上传" rc="200" rm="OK" tn="多用户日常操作 1-1" dt="text" by="303" sby="2676" ng="5" na="5"/>
+<sample t="5905" it="2230" lt="5905" ct="9" ts="1490772503190" s="true" lb="多用户文件上传线程组" rc="200" rm="Number of samples in transaction : 1, number of failing samples : 0" tn="多用户日常操作 1-1" dt="" by="303" sby="2676" ng="5" na="5"/>
+<httpSample t="1148" it="0" lt="1148" ct="0" ts="1490772510657" s="true" lb="文件下载" rc="200" rm="OK" tn="多用户日常操作 1-2" dt="text" by="279" sby="236" ng="5" na="5"/>
+<sample t="1148" it="1" lt="1148" ct="0" ts="1490772510656" s="true" lb="多用户下载" rc="200" rm="Number of samples in transaction : 1, number of failing samples : 0" tn="多用户日常操作 1-2" dt="" by="279" sby="236" ng="5" na="5"/>
+<httpSample t="1206" it="0" lt="1206" ct="1" ts="1490772511095" s="true" lb="文件下载" rc="200" rm="OK" tn="多用户日常操作 1-3" dt="text" by="279" sby="237" ng="5" na="5"/>
+<sample t="1206" it="1" lt="1206" ct="1" ts="1490772511095" s="true" lb="多用户下载" rc="200" rm="Number of samples in transaction : 1, number of failing samples : 0" tn="多用户日常操作 1-3" dt="" by="279" sby="237" ng="5" na="5"/>
+<httpSample t="1146" it="0" lt="1146" ct="1" ts="1490772511326" s="true" lb="文件下载" rc="200" rm="OK" tn="多用户日常操作 1-1" dt="text" by="279" sby="237" ng="5" na="5"/>
+<sample t="1146" it="1" lt="1146" ct="1" ts="1490772511326" s="true" lb="多用户下载" rc="200" rm="Number of samples in transaction : 1, number of failing samples : 0" tn="多用户日常操作 1-1" dt="" by="279" sby="237" ng="5" na="5"/>
+<httpSample t="5580" it="0" lt="5580" ct="2" ts="1490772507150" s="true" lb="post文件上传" rc="200" rm="OK" tn="多用户日常操作 1-5" dt="text" by="303" sby="2607" ng="5" na="5"/>
+<sample t="5580" it="3246" lt="5580" ct="2" ts="1490772503904" s="true" lb="多用户文件上传线程组" rc="200" rm="Number of samples in transaction : 1, number of failing samples : 0" tn="多用户日常操作 1-5" dt="" by="303" sby="2607" ng="5" na="5"/>
+<httpSample t="5332" it="0" lt="5332" ct="6" ts="1490772507907" s="true" lb="post文件上传" rc="200" rm="OK" tn="多用户日常操作 1-4" dt="text" by="303" sby="2649" ng="5" na="5"/>
+<sample t="5332" it="4173" lt="5332" ct="6" ts="1490772503735" s="true" lb="多用户文件上传线程组" rc="200" rm="Number of samples in transaction : 1, number of failing samples : 0" tn="多用户日常操作 1-4" dt="" by="303" sby="2649" ng="5" na="5"/>
+<httpSample t="1143" it="0" lt="1143" ct="1" ts="1490772512731" s="true" lb="文件下载" rc="200" rm="OK" tn="多用户日常操作 1-5" dt="text" by="279" sby="237" ng="5" na="5"/>
+<sample t="1143" it="1" lt="1143" ct="1" ts="1490772512731" s="true" lb="多用户下载" rc="200" rm="Number of samples in transaction : 1, number of failing samples : 0" tn="多用户日常操作 1-5" dt="" by="279" sby="237" ng="5" na="5"/>
+<httpSample t="1123" it="0" lt="1123" ct="2" ts="1490772513241" s="true" lb="文件下载" rc="200" rm="OK" tn="多用户日常操作 1-4" dt="text" by="279" sby="237" ng="5" na="5"/>
+<sample t="1123" it="1" lt="1123" ct="2" ts="1490772513241" s="true" lb="多用户下载" rc="200" rm="Number of samples in transaction : 1, number of failing samples : 0" tn="多用户日常操作 1-4" dt="" by="279" sby="237" ng="5" na="5"/>
+<httpSample t="1077" it="0" lt="1077" ct="0" ts="1490772513455" s="true" lb="加载全部文件 文件夹" rc="200" rm="OK" tn="多用户日常操作 1-2" dt="text" by="2890" sby="0" ng="5" na="5"/>
+<httpSample t="1079" it="0" lt="1079" ct="0" ts="1490772514993" s="true" lb="加载全部文件 文件夹" rc="200" rm="OK" tn="多用户日常操作 1-1" dt="text" by="2625" sby="0" ng="5" na="5"/>
+<httpSample t="1017" it="0" lt="1017" ct="0" ts="1490772516306" s="true" lb="加载全部文件 文件夹" rc="200" rm="OK" tn="多用户日常操作 1-3" dt="text" by="2625" sby="0" ng="5" na="5"/>
+<httpSample t="999" it="0" lt="999" ct="0" ts="1490772516827" s="true" lb="加载全部文件 文件夹" rc="200" rm="OK" tn="多用户日常操作 1-5" dt="text" by="2625" sby="0" ng="5" na="5"/>
+<httpSample t="1000" it="0" lt="1000" ct="0" ts="1490772518104" s="true" lb="打开个人文件夹" rc="200" rm="OK" tn="多用户日常操作 1-2" dt="text" by="826" sby="0" ng="5" na="5"/>
+<sample t="2077" it="5224" lt="2077" ct="0" ts="1490772511805" s="true" lb="普通用户浏览文件列表(已登录、打开个人文件夹)" rc="200" rm="Number of samples in transaction : 2, number of failing samples : 0" tn="多用户日常操作 1-2" dt="" by="3716" sby="0" ng="5" na="5"/>
+<httpSample t="2" it="0" lt="2" ct="0" ts="1490772519106" s="true" lb="访问服务器" rc="200" rm="OK" tn="多用户日常操作 1-2" dt="text" by="2994" sby="0" ng="5" na="5"/>
+<httpSample t="3" it="0" lt="3" ct="0" ts="1490772519110" s="true" lb="加载登录页面" rc="200" rm="OK" tn="多用户日常操作 1-2" dt="text" by="2994" sby="0" ng="5" na="5"/>
+<httpSample t="5" it="0" lt="5" ct="0" ts="1490772519114" s="true" lb="身份验证 是否有此用户" rc="200" rm="OK" tn="多用户日常操作 1-2" dt="text" by="301" sby="0" ng="5" na="5"/>
+<httpSample t="61" it="0" lt="61" ct="0" ts="1490772519121" s="true" lb="身份验证" rc="200" rm="OK" tn="多用户日常操作 1-2" dt="text" by="460" sby="0" ng="5" na="5"/>
+<httpSample t="5" it="0" lt="5" ct="0" ts="1490772519183" s="true" lb="检查license" rc="200" rm="OK" tn="多用户日常操作 1-2" dt="text" by="388" sby="0" ng="5" na="5"/>
+<httpSample t="2" it="0" lt="2" ct="0" ts="1490772519190" s="true" lb="http://172.16.71.232/#!/fileshare/allfiles" rc="200" rm="OK" tn="多用户日常操作 1-2" dt="text" by="2994" sby="0" ng="5" na="5"/>
+<httpSample t="30" it="0" lt="30" ct="0" ts="1490772519193" s="true" lb="http://172.16.71.232/api/v1/filelists/getAdminName" rc="200" rm="OK" tn="多用户日常操作 1-2" dt="text" by="328" sby="0" ng="5" na="5"/>
+<httpSample t="950" it="0" lt="950" ct="0" ts="1490772518557" s="true" lb="加载全部文件 文件夹" rc="200" rm="OK" tn="多用户日常操作 1-4" dt="text" by="2625" sby="0" ng="5" na="5"/>
+<httpSample t="929" it="0" lt="929" ct="0" ts="1490772518771" s="true" lb="打开个人文件夹" rc="200" rm="OK" tn="多用户日常操作 1-5" dt="text" by="826" sby="0" ng="5" na="5"/>
+<sample t="1928" it="3899" lt="1928" ct="0" ts="1490772513875" s="true" lb="普通用户浏览文件列表(已登录、打开个人文件夹)" rc="200" rm="Number of samples in transaction : 2, number of failing samples : 0" tn="多用户日常操作 1-5" dt="" by="3451" sby="0" ng="5" na="5"/>
+<httpSample t="3" it="0" lt="3" ct="0" ts="1490772519702" s="true" lb="访问服务器" rc="200" rm="OK" tn="多用户日常操作 1-5" dt="text" by="2994" sby="0" ng="5" na="5"/>
+<httpSample t="2" it="0" lt="2" ct="0" ts="1490772519705" s="true" lb="加载登录页面" rc="200" rm="OK" tn="多用户日常操作 1-5" dt="text" by="2994" sby="0" ng="5" na="5"/>
+<httpSample t="5" it="0" lt="5" ct="0" ts="1490772519709" s="true" lb="身份验证 是否有此用户" rc="200" rm="OK" tn="多用户日常操作 1-5" dt="text" by="301" sby="0" ng="5" na="5"/>
+<httpSample t="60" it="0" lt="60" ct="0" ts="1490772519715" s="true" lb="身份验证" rc="200" rm="OK" tn="多用户日常操作 1-5" dt="text" by="460" sby="0" ng="5" na="5"/>
+<httpSample t="4" it="0" lt="4" ct="0" ts="1490772519776" s="true" lb="检查license" rc="200" rm="OK" tn="多用户日常操作 1-5" dt="text" by="388" sby="0" ng="5" na="5"/>
+<httpSample t="2" it="0" lt="2" ct="0" ts="1490772519781" s="true" lb="http://172.16.71.232/#!/fileshare/allfiles" rc="200" rm="OK" tn="多用户日常操作 1-5" dt="text" by="2994" sby="0" ng="5" na="5"/>
+<httpSample t="10" it="0" lt="10" ct="0" ts="1490772519784" s="true" lb="http://172.16.71.232/api/v1/filelists/getAdminName" rc="200" rm="OK" tn="多用户日常操作 1-5" dt="text" by="328" sby="0" ng="5" na="5"/>
+<httpSample t="954" it="0" lt="954" ct="0" ts="1490772519225" s="true" lb="获取文件列表" rc="200" rm="OK" tn="多用户日常操作 1-2" dt="text" by="773" sby="0" ng="5" na="5"/>
+<httpSample t="12" it="0" lt="12" ct="0" ts="1490772520180" s="true" lb="获取用户信息" rc="200" rm="OK" tn="多用户日常操作 1-2" dt="text" by="762" sby="0" ng="5" na="5"/>
+<httpSample t="953" it="0" lt="953" ct="0" ts="1490772519268" s="true" lb="打开个人文件夹" rc="200" rm="OK" tn="多用户日常操作 1-1" dt="text" by="826" sby="0" ng="5" na="5"/>
+<sample t="2032" it="5717" lt="2032" ct="0" ts="1490772512473" s="true" lb="普通用户浏览文件列表(已登录、打开个人文件夹)" rc="200" rm="Number of samples in transaction : 2, number of failing samples : 0" tn="多用户日常操作 1-1" dt="" by="3451" sby="0" ng="5" na="5"/>
+<httpSample t="2" it="0" lt="2" ct="0" ts="1490772520222" s="true" lb="访问服务器" rc="200" rm="OK" tn="多用户日常操作 1-1" dt="text" by="2994" sby="0" ng="5" na="5"/>
+<httpSample t="2" it="0" lt="2" ct="0" ts="1490772520225" s="true" lb="加载登录页面" rc="200" rm="OK" tn="多用户日常操作 1-1" dt="text" by="2994" sby="0" ng="5" na="5"/>
+<httpSample t="26" it="0" lt="26" ct="0" ts="1490772520228" s="true" lb="身份验证 是否有此用户" rc="200" rm="OK" tn="多用户日常操作 1-1" dt="text" by="301" sby="0" ng="5" na="5"/>
+<httpSample t="54" it="0" lt="54" ct="0" ts="1490772520255" s="true" lb="身份验证" rc="200" rm="OK" tn="多用户日常操作 1-1" dt="text" by="460" sby="0" ng="5" na="5"/>
+<httpSample t="5" it="0" lt="5" ct="0" ts="1490772520310" s="true" lb="检查license" rc="200" rm="OK" tn="多用户日常操作 1-1" dt="text" by="388" sby="0" ng="5" na="5"/>
+<httpSample t="2" it="0" lt="2" ct="0" ts="1490772520316" s="true" lb="http://172.16.71.232/#!/fileshare/allfiles" rc="200" rm="OK" tn="多用户日常操作 1-1" dt="text" by="2994" sby="0" ng="5" na="5"/>
+<httpSample t="10" it="0" lt="10" ct="0" ts="1490772520319" s="true" lb="http://172.16.71.232/api/v1/filelists/getAdminName" rc="200" rm="OK" tn="多用户日常操作 1-1" dt="text" by="328" sby="0" ng="5" na="5"/>
+<httpSample t="1034" it="0" lt="1034" ct="0" ts="1490772519795" s="true" lb="获取文件列表" rc="200" rm="OK" tn="多用户日常操作 1-5" dt="text" by="773" sby="0" ng="5" na="5"/>
+<httpSample t="638" it="0" lt="638" ct="0" ts="1490772520193" s="true" lb="查看qutoa值" rc="200" rm="OK" tn="多用户日常操作 1-2" dt="text" by="385" sby="0" ng="5" na="5"/>
+<sample t="1712" it="14" lt="1712" ct="0" ts="1490772519106" s="true" lb="普通用户登录、获取文件列表" rc="200" rm="Number of samples in transaction : 10, number of failing samples : 0" tn="多用户日常操作 1-2" dt="" by="12379" sby="0" ng="5" na="5"/>
+<httpSample t="13" it="0" lt="13" ct="0" ts="1490772520830" s="true" lb="获取用户信息" rc="200" rm="OK" tn="多用户日常操作 1-5" dt="text" by="762" sby="0" ng="4" na="4"/>
+<httpSample t="969" it="0" lt="969" ct="0" ts="1490772520330" s="true" lb="获取文件列表" rc="200" rm="OK" tn="多用户日常操作 1-1" dt="text" by="773" sby="0" ng="4" na="4"/>
+<httpSample t="12" it="0" lt="11" ct="0" ts="1490772521300" s="true" lb="获取用户信息" rc="200" rm="OK" tn="多用户日常操作 1-1" dt="text" by="762" sby="0" ng="4" na="4"/>
+<httpSample t="567" it="0" lt="567" ct="0" ts="1490772520843" s="true" lb="查看qutoa值" rc="200" rm="OK" tn="多用户日常操作 1-5" dt="text" by="385" sby="0" ng="4" na="4"/>
+<sample t="1700" it="9" lt="1700" ct="0" ts="1490772519701" s="true" lb="普通用户登录、获取文件列表" rc="200" rm="Number of samples in transaction : 10, number of failing samples : 0" tn="多用户日常操作 1-5" dt="" by="12379" sby="0" ng="4" na="4"/>
+<httpSample t="616" it="0" lt="616" ct="0" ts="1490772521313" s="true" lb="查看qutoa值" rc="200" rm="OK" tn="多用户日常操作 1-1" dt="text" by="385" sby="0" ng="3" na="3"/>
+<sample t="1698" it="10" lt="1697" ct="0" ts="1490772520222" s="true" lb="普通用户登录、获取文件列表" rc="200" rm="Number of samples in transaction : 10, number of failing samples : 0" tn="多用户日常操作 1-1" dt="" by="12379" sby="0" ng="3" na="3"/>
+<httpSample t="1011" it="0" lt="1011" ct="0" ts="1490772521284" s="true" lb="打开个人文件夹" rc="200" rm="OK" tn="多用户日常操作 1-3" dt="text" by="826" sby="0" ng="2" na="2"/>
+<sample t="2028" it="7966" lt="2028" ct="0" ts="1490772512302" s="true" lb="普通用户浏览文件列表(已登录、打开个人文件夹)" rc="200" rm="Number of samples in transaction : 2, number of failing samples : 0" tn="多用户日常操作 1-3" dt="" by="3451" sby="0" ng="2" na="2"/>
+<httpSample t="2" it="0" lt="2" ct="0" ts="1490772522295" s="true" lb="访问服务器" rc="200" rm="OK" tn="多用户日常操作 1-3" dt="text" by="2994" sby="0" ng="2" na="2"/>
+<httpSample t="1" it="0" lt="1" ct="0" ts="1490772522298" s="true" lb="加载登录页面" rc="200" rm="OK" tn="多用户日常操作 1-3" dt="text" by="2994" sby="0" ng="2" na="2"/>
+<httpSample t="5" it="0" lt="5" ct="0" ts="1490772522300" s="true" lb="身份验证 是否有此用户" rc="200" rm="OK" tn="多用户日常操作 1-3" dt="text" by="301" sby="0" ng="2" na="2"/>
+<httpSample t="61" it="0" lt="61" ct="0" ts="1490772522305" s="true" lb="身份验证" rc="200" rm="OK" tn="多用户日常操作 1-3" dt="text" by="460" sby="0" ng="2" na="2"/>
+<httpSample t="4" it="0" lt="4" ct="0" ts="1490772522367" s="true" lb="检查license" rc="200" rm="OK" tn="多用户日常操作 1-3" dt="text" by="388" sby="0" ng="2" na="2"/>
+<httpSample t="1" it="0" lt="1" ct="0" ts="1490772522371" s="true" lb="http://172.16.71.232/#!/fileshare/allfiles" rc="200" rm="OK" tn="多用户日常操作 1-3" dt="text" by="2994" sby="0" ng="2" na="2"/>
+<httpSample t="12" it="0" lt="12" ct="0" ts="1490772522373" s="true" lb="http://172.16.71.232/api/v1/filelists/getAdminName" rc="200" rm="OK" tn="多用户日常操作 1-3" dt="text" by="328" sby="0" ng="2" na="2"/>
+<httpSample t="955" it="0" lt="955" ct="0" ts="1490772522385" s="true" lb="获取文件列表" rc="200" rm="OK" tn="多用户日常操作 1-3" dt="text" by="773" sby="0" ng="2" na="2"/>
+<httpSample t="12" it="0" lt="12" ct="0" ts="1490772523341" s="true" lb="获取用户信息" rc="200" rm="OK" tn="多用户日常操作 1-3" dt="text" by="762" sby="0" ng="2" na="2"/>
+<httpSample t="583" it="0" lt="583" ct="0" ts="1490772523353" s="true" lb="查看qutoa值" rc="200" rm="OK" tn="多用户日常操作 1-3" dt="text" by="385" sby="0" ng="2" na="2"/>
+<sample t="1636" it="5" lt="1636" ct="0" ts="1490772522295" s="true" lb="普通用户登录、获取文件列表" rc="200" rm="Number of samples in transaction : 10, number of failing samples : 0" tn="多用户日常操作 1-3" dt="" by="12379" sby="0" ng="2" na="2"/>
+<httpSample t="985" it="0" lt="985" ct="0" ts="1490772523146" s="true" lb="打开个人文件夹" rc="200" rm="OK" tn="多用户日常操作 1-4" dt="text" by="826" sby="0" ng="1" na="1"/>
+<sample t="1935" it="7832" lt="1935" ct="0" ts="1490772514365" s="true" lb="普通用户浏览文件列表(已登录、打开个人文件夹)" rc="200" rm="Number of samples in transaction : 2, number of failing samples : 0" tn="多用户日常操作 1-4" dt="" by="3451" sby="0" ng="1" na="1"/>
+<httpSample t="1" it="0" lt="1" ct="0" ts="1490772524132" s="true" lb="访问服务器" rc="200" rm="OK" tn="多用户日常操作 1-4" dt="text" by="2994" sby="0" ng="1" na="1"/>
+<httpSample t="2" it="0" lt="2" ct="0" ts="1490772524133" s="true" lb="加载登录页面" rc="200" rm="OK" tn="多用户日常操作 1-4" dt="text" by="2994" sby="0" ng="1" na="1"/>
+<httpSample t="5" it="0" lt="5" ct="0" ts="1490772524135" s="true" lb="身份验证 是否有此用户" rc="200" rm="OK" tn="多用户日常操作 1-4" dt="text" by="301" sby="0" ng="1" na="1"/>
+<httpSample t="64" it="0" lt="64" ct="0" ts="1490772524140" s="true" lb="身份验证" rc="200" rm="OK" tn="多用户日常操作 1-4" dt="text" by="462" sby="0" ng="1" na="1"/>
+<httpSample t="4" it="0" lt="4" ct="0" ts="1490772524204" s="true" lb="检查license" rc="200" rm="OK" tn="多用户日常操作 1-4" dt="text" by="388" sby="0" ng="1" na="1"/>
+<httpSample t="1" it="0" lt="1" ct="0" ts="1490772524208" s="true" lb="http://172.16.71.232/#!/fileshare/allfiles" rc="200" rm="OK" tn="多用户日常操作 1-4" dt="text" by="2994" sby="0" ng="1" na="1"/>
+<httpSample t="12" it="0" lt="11" ct="0" ts="1490772524210" s="true" lb="http://172.16.71.232/api/v1/filelists/getAdminName" rc="200" rm="OK" tn="多用户日常操作 1-4" dt="text" by="328" sby="0" ng="1" na="1"/>
+<httpSample t="951" it="0" lt="951" ct="0" ts="1490772524222" s="true" lb="获取文件列表" rc="200" rm="OK" tn="多用户日常操作 1-4" dt="text" by="773" sby="0" ng="1" na="1"/>
+<httpSample t="12" it="0" lt="12" ct="0" ts="1490772525174" s="true" lb="获取用户信息" rc="200" rm="OK" tn="多用户日常操作 1-4" dt="text" by="766" sby="0" ng="1" na="1"/>
+<httpSample t="591" it="0" lt="591" ct="0" ts="1490772525188" s="true" lb="查看qutoa值" rc="200" rm="OK" tn="多用户日常操作 1-4" dt="text" by="385" sby="0" ng="1" na="1"/>
+<sample t="1643" it="4" lt="1642" ct="0" ts="1490772524132" s="true" lb="普通用户登录、获取文件列表" rc="200" rm="Number of samples in transaction : 10, number of failing samples : 0" tn="多用户日常操作 1-4" dt="" by="12385" sby="0" ng="1" na="1"/>
+
+</testResults>

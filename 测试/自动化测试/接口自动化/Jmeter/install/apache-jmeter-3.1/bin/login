@@ -1,0 +1,878 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect
+1486263231018,13,http://172.16.71.234/,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,13,0,0
+1486263231033,2,http://172.16.71.234/#!/login,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,2,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-1,text,false,,1345,0,1,1,0,0,0
+1486263231035,7,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-1,text,true,,301,0,1,1,7,0,0
+1486263231042,59,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-1,text,true,,298,274,1,1,0,0,1
+1486263231101,4,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-1,text,true,,388,0,1,1,4,0,0
+1486263231105,1,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,1,0,0
+1486263231131,2,http://172.16.71.234/,200,OK,Thread Group 1-2,text,true,,1659,0,1,1,2,0,0
+1486263231133,2,http://172.16.71.234/#!/login,200,OK,Thread Group 1-2,text,true,,1659,0,1,1,2,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-2,text,false,,1345,0,1,1,0,0,0
+1486263231135,6,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-2,text,true,,301,0,1,1,6,0,0
+1486263231141,56,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-2,text,true,,298,274,1,1,0,0,1
+1486263231197,4,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-2,text,true,,388,0,1,1,4,0,0
+1486263231201,1,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-2,text,true,,1659,0,1,1,1,0,0
+1486263231233,2,http://172.16.71.234/,200,OK,Thread Group 1-3,text,true,,1659,0,1,1,2,0,0
+1486263231235,2,http://172.16.71.234/#!/login,200,OK,Thread Group 1-3,text,true,,1659,0,1,1,2,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-3,text,false,,1345,0,1,1,0,0,0
+1486263231238,5,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-3,text,true,,301,0,1,1,5,0,0
+1486263231243,58,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-3,text,true,,298,274,1,1,0,0,2
+1486263231301,4,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-3,text,true,,388,0,1,1,4,0,0
+1486263231305,1,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-3,text,true,,1659,0,1,1,1,0,0
+1486263231327,2,http://172.16.71.234/,200,OK,Thread Group 1-4,text,true,,1659,0,1,1,2,0,0
+1486263231329,1,http://172.16.71.234/#!/login,200,OK,Thread Group 1-4,text,true,,1659,0,1,1,1,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-4,text,false,,1345,0,1,1,0,0,0
+1486263231331,6,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-4,text,true,,301,0,1,1,6,0,0
+1486263231337,47,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-4,text,true,,298,274,1,1,0,0,1
+1486263231384,4,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-4,text,true,,388,0,1,1,4,0,0
+1486263231388,1,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-4,text,true,,1659,0,1,1,1,0,0
+1486263231427,2,http://172.16.71.234/,200,OK,Thread Group 1-5,text,true,,1659,0,1,1,2,0,0
+1486263231429,1,http://172.16.71.234/#!/login,200,OK,Thread Group 1-5,text,true,,1659,0,1,1,1,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-5,text,false,,1345,0,1,1,0,0,0
+1486263231431,5,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-5,text,true,,301,0,1,1,5,0,0
+1486263231436,56,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-5,text,true,,298,274,1,1,0,0,1
+1486263231492,3,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-5,text,true,,388,0,1,1,3,0,0
+1486263231495,2,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-5,text,true,,1659,0,1,1,2,0,0
+1486263231528,1,http://172.16.71.234/,200,OK,Thread Group 1-6,text,true,,1659,0,1,1,1,0,0
+1486263231529,2,http://172.16.71.234/#!/login,200,OK,Thread Group 1-6,text,true,,1659,0,1,1,2,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-6,text,false,,1345,0,1,1,0,0,0
+1486263231531,5,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-6,text,true,,301,0,1,1,5,0,0
+1486263231537,44,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-6,text,true,,298,274,1,1,0,0,1
+1486263231581,3,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-6,text,true,,388,0,1,1,3,0,0
+1486263231584,2,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-6,text,true,,1659,0,1,1,2,0,0
+1486263231627,2,http://172.16.71.234/,200,OK,Thread Group 1-7,text,true,,1659,0,1,1,2,0,0
+1486263231629,1,http://172.16.71.234/#!/login,200,OK,Thread Group 1-7,text,true,,1659,0,1,1,1,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-7,text,false,,1345,0,1,1,0,0,0
+1486263231630,5,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-7,text,true,,301,0,1,1,5,0,0
+1486263231636,50,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-7,text,true,,298,274,1,1,0,0,1
+1486263231686,4,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-7,text,true,,388,0,1,1,4,0,0
+1486263231690,1,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-7,text,true,,1659,0,1,1,1,0,0
+1486263231732,1,http://172.16.71.234/,200,OK,Thread Group 1-8,text,true,,1659,0,1,1,1,0,0
+1486263231733,2,http://172.16.71.234/#!/login,200,OK,Thread Group 1-8,text,true,,1659,0,1,1,2,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-8,text,false,,1345,0,1,1,0,0,0
+1486263231735,5,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-8,text,true,,301,0,1,1,5,0,0
+1486263231741,57,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-8,text,true,,298,274,1,1,0,0,0
+1486263231798,3,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-8,text,true,,388,0,1,1,3,0,0
+1486263231801,1,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-8,text,true,,1659,0,1,1,1,0,0
+1486263231832,1,http://172.16.71.234/,200,OK,Thread Group 1-9,text,true,,1659,0,1,1,1,0,0
+1486263231833,2,http://172.16.71.234/#!/login,200,OK,Thread Group 1-9,text,true,,1659,0,1,1,2,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-9,text,false,,1345,0,1,1,0,0,0
+1486263231835,5,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-9,text,true,,301,0,1,1,5,0,0
+1486263231841,57,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-9,text,true,,298,274,1,1,0,0,1
+1486263231898,3,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-9,text,true,,388,0,1,1,3,0,0
+1486263231901,2,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-9,text,true,,1659,0,1,1,2,0,0
+1486263231931,2,http://172.16.71.234/,200,OK,Thread Group 1-10,text,true,,1659,0,1,1,2,0,0
+1486263231933,1,http://172.16.71.234/#!/login,200,OK,Thread Group 1-10,text,true,,1659,0,1,1,1,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-10,text,false,,1345,0,1,1,0,0,0
+1486263231934,5,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-10,text,true,,301,0,1,1,5,0,0
+1486263231940,58,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-10,text,true,,298,274,1,1,0,0,1
+1486263231998,3,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-10,text,true,,388,0,1,1,3,0,0
+1486263232001,2,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-10,text,true,,1659,0,1,1,2,0,0
+1486263657001,27,http://172.16.71.234/,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,27,0,0
+1486263657032,2,http://172.16.71.234/#!/login,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,2,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-1,text,false,,1345,0,1,1,0,0,0
+1486263657035,8,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-1,text,true,,301,0,1,1,8,0,0
+1486263657095,3,http://172.16.71.234/,200,OK,Thread Group 1-2,text,true,,1659,0,2,2,3,0,0
+1486263657099,1,http://172.16.71.234/#!/login,200,OK,Thread Group 1-2,text,true,,1659,0,2,2,1,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-2,text,false,,1345,0,2,2,0,0,0
+1486263657101,5,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-2,text,true,,301,0,2,2,5,0,0
+1486263657197,2,http://172.16.71.234/,200,OK,Thread Group 1-3,text,true,,1659,0,3,3,2,0,0
+1486263657199,2,http://172.16.71.234/#!/login,200,OK,Thread Group 1-3,text,true,,1659,0,3,3,2,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-3,text,false,,1345,0,3,3,0,0,0
+1486263657073,133,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-1,text,true,,298,274,3,3,0,0,43
+1486263657202,5,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-3,text,true,,301,0,3,3,5,0,0
+1486263657207,17,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-1,text,true,,388,0,3,3,17,0,0
+1486263657225,1,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-1,text,true,,1659,0,3,3,1,0,0
+1486263657107,128,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-2,text,true,,298,274,2,2,0,0,9
+1486263657236,3,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-2,text,true,,388,0,2,2,3,0,0
+1486263657239,2,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-2,text,true,,1659,0,2,2,2,0,0
+1486263657207,66,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-3,text,true,,298,274,1,1,0,0,1
+1486263657274,3,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-3,text,true,,388,0,1,1,3,0,0
+1486263657277,2,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-3,text,true,,1659,0,1,1,2,0,0
+1486263657314,2,http://172.16.71.234/,200,OK,Thread Group 1-4,text,true,,1659,0,1,1,1,0,0
+1486263657316,2,http://172.16.71.234/#!/login,200,OK,Thread Group 1-4,text,true,,1659,0,1,1,2,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-4,text,false,,1345,0,1,1,0,0,0
+1486263657318,6,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-4,text,true,,301,0,1,1,6,0,0
+1486263657325,55,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-4,text,true,,298,274,1,1,0,0,1
+1486263657380,4,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-4,text,true,,388,0,1,1,4,0,0
+1486263657384,2,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-4,text,true,,1659,0,1,1,2,0,0
+1486263657408,2,http://172.16.71.234/,200,OK,Thread Group 1-5,text,true,,1659,0,1,1,2,0,0
+1486263657410,2,http://172.16.71.234/#!/login,200,OK,Thread Group 1-5,text,true,,1659,0,1,1,2,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-5,text,false,,1345,0,1,1,0,0,0
+1486263657413,5,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-5,text,true,,301,0,1,1,5,0,0
+1486263657418,50,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-5,text,true,,298,274,1,1,0,0,2
+1486263657468,3,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-5,text,true,,388,0,1,1,3,0,0
+1486263657472,1,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-5,text,true,,1659,0,1,1,1,0,0
+1486263657510,1,http://172.16.71.234/,200,OK,Thread Group 1-6,text,true,,1659,0,1,1,1,0,0
+1486263657512,1,http://172.16.71.234/#!/login,200,OK,Thread Group 1-6,text,true,,1659,0,1,1,1,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-6,text,false,,1345,0,1,1,0,0,0
+1486263657514,5,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-6,text,true,,301,0,1,1,5,0,0
+1486263657520,37,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-6,text,true,,298,274,1,1,0,0,1
+1486263657557,3,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-6,text,true,,388,0,1,1,3,0,0
+1486263657561,1,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-6,text,true,,1659,0,1,1,1,0,0
+1486263657612,1,http://172.16.71.234/,200,OK,Thread Group 1-7,text,true,,1659,0,1,1,1,0,0
+1486263657614,1,http://172.16.71.234/#!/login,200,OK,Thread Group 1-7,text,true,,1659,0,1,1,1,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-7,text,false,,1345,0,1,1,0,0,0
+1486263657616,5,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-7,text,true,,301,0,1,1,5,0,0
+1486263657621,47,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-7,text,true,,298,274,1,1,0,0,2
+1486263657668,4,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-7,text,true,,388,0,1,1,4,0,0
+1486263657672,1,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-7,text,true,,1659,0,1,1,1,0,0
+1486263657713,2,http://172.16.71.234/,200,OK,Thread Group 1-8,text,true,,1659,0,1,1,2,0,0
+1486263657715,1,http://172.16.71.234/#!/login,200,OK,Thread Group 1-8,text,true,,1659,0,1,1,1,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-8,text,false,,1345,0,1,1,0,0,0
+1486263657717,5,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-8,text,true,,301,0,1,1,5,0,0
+1486263657723,50,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-8,text,true,,298,274,1,1,0,0,1
+1486263657774,4,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-8,text,true,,388,0,1,1,4,0,0
+1486263657778,1,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-8,text,true,,1659,0,1,1,1,0,0
+1486263657812,1,http://172.16.71.234/,200,OK,Thread Group 1-9,text,true,,1659,0,1,1,1,0,0
+1486263657814,1,http://172.16.71.234/#!/login,200,OK,Thread Group 1-9,text,true,,1659,0,1,1,1,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-9,text,false,,1345,0,1,1,0,0,0
+1486263657816,5,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-9,text,true,,301,0,1,1,5,0,0
+1486263657821,59,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-9,text,true,,298,274,1,1,0,0,1
+1486263657880,4,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-9,text,true,,388,0,1,1,4,0,0
+1486263657884,2,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-9,text,true,,1659,0,1,1,2,0,0
+1486263657912,1,http://172.16.71.234/,200,OK,Thread Group 1-10,text,true,,1659,0,1,1,1,0,0
+1486263657914,1,http://172.16.71.234/#!/login,200,OK,Thread Group 1-10,text,true,,1659,0,1,1,1,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-10,text,false,,1345,0,1,1,0,0,0
+1486263657916,5,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-10,text,true,,301,0,1,1,5,0,0
+1486263657922,58,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-10,text,true,,298,274,1,1,0,0,1
+1486263657981,3,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-10,text,true,,388,0,1,1,3,0,0
+1486263657984,2,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-10,text,true,,1659,0,1,1,2,0,0
+1486264154271,25,http://172.16.71.234/,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,25,0,0
+1486264154301,2,http://172.16.71.234/#!/login,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,2,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-1,text,false,,1345,0,1,1,0,0,0
+1486264154304,7,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-1,text,true,,301,0,1,1,7,0,0
+1486264154365,3,http://172.16.71.234/,200,OK,Thread Group 1-2,text,true,,1659,0,2,2,3,0,0
+1486264154369,2,http://172.16.71.234/#!/login,200,OK,Thread Group 1-2,text,true,,1659,0,2,2,2,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-2,text,false,,1345,0,2,2,0,0,0
+1486264154373,6,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-2,text,true,,301,0,2,2,6,0,0
+1486264154464,3,http://172.16.71.234/,200,OK,Thread Group 1-3,text,true,,1659,0,3,3,3,0,0
+1486264154346,121,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-1,text,true,,298,274,3,3,0,0,46
+1486264154467,2,http://172.16.71.234/#!/login,200,OK,Thread Group 1-3,text,true,,1659,0,3,3,2,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-3,text,false,,1345,0,3,3,0,0,0
+1486264154468,22,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-1,text,true,,388,0,3,3,22,0,0
+1486264154490,2,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-1,text,true,,1659,0,3,3,2,0,0
+1486264154470,23,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-3,text,true,,301,0,2,2,23,0,0
+1486264154379,123,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-2,text,true,,298,274,2,2,0,0,13
+1486264154502,3,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-2,text,true,,388,0,2,2,3,0,0
+1486264154506,1,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-2,text,true,,1659,0,2,2,1,0,0
+1486264154494,55,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-3,text,true,,298,274,1,1,0,0,1
+1486264154549,3,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-3,text,true,,388,0,1,1,3,0,0
+1486264154553,1,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-3,text,true,,1659,0,1,1,1,0,0
+1486264154562,2,http://172.16.71.234/,200,OK,Thread Group 1-4,text,true,,1659,0,1,1,2,0,0
+1486264154565,1,http://172.16.71.234/#!/login,200,OK,Thread Group 1-4,text,true,,1659,0,1,1,1,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-4,text,false,,1345,0,1,1,0,0,0
+1486264154567,5,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-4,text,true,,301,0,1,1,5,0,0
+1486264154573,42,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-4,text,true,,298,274,1,1,0,0,2
+1486264154616,4,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-4,text,true,,388,0,1,1,4,0,0
+1486264154620,2,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-4,text,true,,1659,0,1,1,2,0,0
+1486264154664,1,http://172.16.71.234/,200,OK,Thread Group 1-5,text,true,,1659,0,1,1,1,0,0
+1486264154666,1,http://172.16.71.234/#!/login,200,OK,Thread Group 1-5,text,true,,1659,0,1,1,1,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-5,text,false,,1345,0,1,1,0,0,0
+1486264154668,5,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-5,text,true,,301,0,1,1,5,0,0
+1486264154674,50,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-5,text,true,,298,274,1,1,0,0,1
+1486264154724,4,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-5,text,true,,388,0,1,1,4,0,0
+1486264154728,2,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-5,text,true,,1659,0,1,1,2,0,0
+1486264154763,2,http://172.16.71.234/,200,OK,Thread Group 1-6,text,true,,1659,0,1,1,2,0,0
+1486264154765,2,http://172.16.71.234/#!/login,200,OK,Thread Group 1-6,text,true,,1659,0,1,1,2,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-6,text,false,,1345,0,1,1,0,0,0
+1486264154768,5,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-6,text,true,,301,0,1,1,5,0,0
+1486264154774,50,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-6,text,true,,298,274,1,1,0,0,1
+1486264154825,3,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-6,text,true,,388,0,1,1,3,0,0
+1486264154829,1,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-6,text,true,,1659,0,1,1,1,0,0
+1486264154863,2,http://172.16.71.234/,200,OK,Thread Group 1-7,text,true,,1659,0,1,1,2,0,0
+1486264154865,2,http://172.16.71.234/#!/login,200,OK,Thread Group 1-7,text,true,,1659,0,1,1,2,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-7,text,false,,1345,0,1,1,0,0,0
+1486264154868,5,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-7,text,true,,301,0,1,1,5,0,0
+1486264154874,61,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-7,text,true,,298,274,1,1,0,0,1
+1486264154936,3,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-7,text,true,,388,0,1,1,3,0,0
+1486264154939,2,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-7,text,true,,1659,0,1,1,2,0,0
+1486264154963,2,http://172.16.71.234/,200,OK,Thread Group 1-8,text,true,,1659,0,1,1,2,0,0
+1486264154965,2,http://172.16.71.234/#!/login,200,OK,Thread Group 1-8,text,true,,1659,0,1,1,2,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-8,text,false,,1345,0,1,1,0,0,0
+1486264154968,5,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-8,text,true,,301,0,1,1,5,0,0
+1486264154974,56,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-8,text,true,,298,274,1,1,0,0,1
+1486264155031,3,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-8,text,true,,388,0,1,1,3,0,0
+1486264155035,1,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-8,text,true,,1659,0,1,1,1,0,0
+1486264155064,1,http://172.16.71.234/,200,OK,Thread Group 1-9,text,true,,1659,0,1,1,1,0,0
+1486264155066,1,http://172.16.71.234/#!/login,200,OK,Thread Group 1-9,text,true,,1659,0,1,1,1,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-9,text,false,,1345,0,1,1,0,0,0
+1486264155068,5,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-9,text,true,,301,0,1,1,5,0,0
+1486264155074,53,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-9,text,true,,298,274,1,1,0,0,1
+1486264155127,3,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-9,text,true,,388,0,1,1,3,0,0
+1486264155131,1,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-9,text,true,,1659,0,1,1,1,0,0
+1486264155164,1,http://172.16.71.234/,200,OK,Thread Group 1-10,text,true,,1659,0,1,1,1,0,0
+1486264155166,1,http://172.16.71.234/#!/login,200,OK,Thread Group 1-10,text,true,,1659,0,1,1,1,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-10,text,false,,1345,0,1,1,0,0,0
+1486264155168,5,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-10,text,true,,301,0,1,1,5,0,0
+1486264155174,50,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-10,text,true,,298,274,1,1,0,0,1
+1486264155225,3,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-10,text,true,,388,0,1,1,3,0,0
+1486264155228,3,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-10,text,true,,1659,0,1,1,3,0,0
+1486264539652,30,http://172.16.71.234/,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,30,0,0
+1486264539686,2,http://172.16.71.234/#!/login,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,2,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-1,text,false,,1345,0,1,1,0,0,0
+1486264539690,7,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-1,text,true,,301,0,1,1,7,0,0
+1486264539751,3,http://172.16.71.234/,200,OK,Thread Group 1-2,text,true,,1659,0,2,2,3,0,0
+1486264539754,2,http://172.16.71.234/#!/login,200,OK,Thread Group 1-2,text,true,,1659,0,2,2,2,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-2,text,false,,1345,0,2,2,0,0,0
+1486264539758,7,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-2,text,true,,301,0,2,2,7,0,0
+1486264539847,2,http://172.16.71.234/,200,OK,Thread Group 1-3,text,true,,1659,0,3,3,2,0,0
+1486264539731,121,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-1,text,true,,298,274,3,3,0,0,44
+1486264539850,3,http://172.16.71.234/#!/login,200,OK,Thread Group 1-3,text,true,,1659,0,3,3,3,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-3,text,false,,1345,0,3,3,0,0,0
+1486264539852,8,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-1,text,true,,388,0,3,3,8,0,0
+1486264539854,7,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-3,text,true,,301,0,3,3,7,0,0
+1486264539860,4,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-1,text,true,,1659,0,3,3,4,0,0
+1486264539765,100,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-2,text,true,,298,274,2,2,0,0,10
+1486264539866,5,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-2,text,true,,388,0,2,2,5,0,0
+1486264539872,2,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-2,text,true,,1659,0,2,2,2,0,0
+1486264539863,56,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-3,text,true,,298,274,1,1,0,0,2
+1486264539920,3,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-3,text,true,,388,0,1,1,3,0,0
+1486264539923,2,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-3,text,true,,1659,0,1,1,2,0,0
+1486264539946,1,http://172.16.71.234/,200,OK,Thread Group 1-4,text,true,,1659,0,1,1,1,0,0
+1486264539948,1,http://172.16.71.234/#!/login,200,OK,Thread Group 1-4,text,true,,1659,0,1,1,1,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-4,text,false,,1345,0,1,1,0,0,0
+1486264539951,6,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-4,text,true,,301,0,1,1,6,0,0
+1486264539957,57,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-4,text,true,,298,274,1,1,0,0,1
+1486264540014,3,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-4,text,true,,388,0,1,1,3,0,0
+1486264540018,1,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-4,text,true,,1659,0,1,1,1,0,0
+1486264540047,2,http://172.16.71.234/,200,OK,Thread Group 1-5,text,true,,1659,0,1,1,2,0,0
+1486264540049,2,http://172.16.71.234/#!/login,200,OK,Thread Group 1-5,text,true,,1659,0,1,1,2,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-5,text,false,,1345,0,1,1,0,0,0
+1486264540052,5,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-5,text,true,,301,0,1,1,5,0,0
+1486264540146,2,http://172.16.71.234/,200,OK,Thread Group 1-6,text,true,,1659,0,2,2,2,0,0
+1486264540148,1,http://172.16.71.234/#!/login,200,OK,Thread Group 1-6,text,true,,1659,0,2,2,1,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-6,text,false,,1345,0,2,2,0,0,0
+1486264540150,6,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-6,text,true,,301,0,2,2,6,0,0
+1486264540058,110,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-5,text,true,,298,274,2,2,0,0,3
+1486264540169,5,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-5,text,true,,388,0,2,2,5,0,0
+1486264540174,2,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-5,text,true,,1659,0,2,2,2,0,0
+1486264540157,56,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-6,text,true,,298,274,1,1,0,0,1
+1486264540213,4,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-6,text,true,,388,0,1,1,4,0,0
+1486264540217,1,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-6,text,true,,1659,0,1,1,1,0,0
+1486264540249,1,http://172.16.71.234/,200,OK,Thread Group 1-7,text,true,,1659,0,1,1,1,0,0
+1486264540251,1,http://172.16.71.234/#!/login,200,OK,Thread Group 1-7,text,true,,1659,0,1,1,1,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-7,text,false,,1345,0,1,1,0,0,0
+1486264540253,6,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-7,text,true,,301,0,1,1,6,0,0
+1486264540259,50,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-7,text,true,,298,274,1,1,0,0,1
+1486264540309,3,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-7,text,true,,388,0,1,1,3,0,0
+1486264540313,1,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-7,text,true,,1659,0,1,1,1,0,0
+1486264540349,1,http://172.16.71.234/,200,OK,Thread Group 1-8,text,true,,1659,0,1,1,1,0,0
+1486264540351,1,http://172.16.71.234/#!/login,200,OK,Thread Group 1-8,text,true,,1659,0,1,1,1,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-8,text,false,,1345,0,1,1,0,0,0
+1486264540353,5,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-8,text,true,,301,0,1,1,5,0,0
+1486264540359,56,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-8,text,true,,298,274,1,1,0,0,1
+1486264540416,3,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-8,text,true,,388,0,1,1,3,0,0
+1486264540419,2,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-8,text,true,,1659,0,1,1,2,0,0
+1486264540447,1,http://172.16.71.234/,200,OK,Thread Group 1-9,text,true,,1659,0,1,1,1,0,0
+1486264540449,1,http://172.16.71.234/#!/login,200,OK,Thread Group 1-9,text,true,,1659,0,1,1,1,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-9,text,false,,1345,0,1,1,0,0,0
+1486264540451,5,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-9,text,true,,301,0,1,1,5,0,0
+1486264540457,59,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-9,text,true,,298,274,1,1,0,0,1
+1486264540517,3,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-9,text,true,,388,0,1,1,3,0,0
+1486264540520,1,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-9,text,true,,1659,0,1,1,1,0,0
+1486264540546,2,http://172.16.71.234/,200,OK,Thread Group 1-10,text,true,,1659,0,1,1,2,0,0
+1486264540548,2,http://172.16.71.234/#!/login,200,OK,Thread Group 1-10,text,true,,1659,0,1,1,2,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-10,text,false,,1345,0,1,1,0,0,0
+1486264540550,6,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-10,text,true,,301,0,1,1,6,0,0
+1486264540556,57,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-10,text,true,,298,274,1,1,0,0,1
+1486264540614,3,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-10,text,true,,388,0,1,1,3,0,0
+1486264540617,2,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-10,text,true,,1659,0,1,1,2,0,0
+1486274231176,4,http://172.16.71.234/,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,4,0,0
+1486274231184,2,http://172.16.71.234/#!/login,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,2,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-1,text,false,,1345,0,1,1,0,0,0
+1486274231186,7,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-1,text,true,,301,0,1,1,7,0,0
+1486274231193,54,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-1,text,true,,298,274,1,1,0,0,1
+1486274231247,4,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-1,text,true,,388,0,1,1,4,0,0
+1486274231251,1,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,1,0,0
+1486274231272,3,http://172.16.71.234/,200,OK,Thread Group 1-2,text,true,,1659,0,1,1,3,0,0
+1486274231275,1,http://172.16.71.234/#!/login,200,OK,Thread Group 1-2,text,true,,1659,0,1,1,1,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-2,text,false,,1345,0,1,1,0,0,0
+1486274231277,5,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-2,text,true,,301,0,1,1,5,0,0
+1486274231283,49,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-2,text,true,,298,274,1,1,0,0,1
+1486274231332,3,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-2,text,true,,388,0,1,1,3,0,0
+1486274231336,1,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-2,text,true,,1659,0,1,1,1,0,0
+1486274231376,2,http://172.16.71.234/,200,OK,Thread Group 1-3,text,true,,1659,0,1,1,2,0,0
+1486274231378,2,http://172.16.71.234/#!/login,200,OK,Thread Group 1-3,text,true,,1659,0,1,1,2,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-3,text,false,,1345,0,1,1,0,0,0
+1486274231380,5,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-3,text,true,,301,0,1,1,5,0,0
+1486274231386,46,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-3,text,true,,298,274,1,1,0,0,1
+1486274231432,4,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-3,text,true,,388,0,1,1,4,0,0
+1486274231436,2,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-3,text,true,,1659,0,1,1,2,0,0
+1486274231476,2,http://172.16.71.234/,200,OK,Thread Group 1-4,text,true,,1659,0,1,1,2,0,0
+1486274231478,2,http://172.16.71.234/#!/login,200,OK,Thread Group 1-4,text,true,,1659,0,1,1,2,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-4,text,false,,1345,0,1,1,0,0,0
+1486274231480,6,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-4,text,true,,301,0,1,1,6,0,0
+1486274231486,53,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-4,text,true,,298,274,1,1,0,0,1
+1486274231539,3,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-4,text,true,,388,0,1,1,3,0,0
+1486274231542,2,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-4,text,true,,1659,0,1,1,2,0,0
+1486274231573,1,http://172.16.71.234/,200,OK,Thread Group 1-5,text,true,,1659,0,1,1,1,0,0
+1486274231575,1,http://172.16.71.234/#!/login,200,OK,Thread Group 1-5,text,true,,1659,0,1,1,1,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-5,text,false,,1345,0,1,1,0,0,0
+1486274231577,5,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-5,text,true,,301,0,1,1,5,0,0
+1486274231582,57,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-5,text,true,,298,274,1,1,0,0,1
+1486274231639,3,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-5,text,true,,388,0,1,1,3,0,0
+1486274231642,2,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-5,text,true,,1659,0,1,1,2,0,0
+1486274231673,1,http://172.16.71.234/,200,OK,Thread Group 1-6,text,true,,1659,0,1,1,1,0,0
+1486274231674,2,http://172.16.71.234/#!/login,200,OK,Thread Group 1-6,text,true,,1659,0,1,1,2,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-6,text,false,,1345,0,1,1,0,0,0
+1486274231676,5,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-6,text,true,,301,0,1,1,5,0,0
+1486274231682,57,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-6,text,true,,298,274,1,1,0,0,1
+1486274231739,3,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-6,text,true,,388,0,1,1,3,0,0
+1486274231743,3,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-6,text,true,,1659,0,1,1,3,0,0
+1486274231774,2,http://172.16.71.234/,200,OK,Thread Group 1-7,text,true,,1659,0,1,1,2,0,0
+1486274231777,2,http://172.16.71.234/#!/login,200,OK,Thread Group 1-7,text,true,,1659,0,1,1,2,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-7,text,false,,1345,0,1,1,0,0,0
+1486274231781,6,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-7,text,true,,301,0,1,1,6,0,0
+1486274231788,60,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-7,text,true,,298,274,1,1,0,0,3
+1486274231848,4,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-7,text,true,,388,0,1,1,4,0,0
+1486274231853,2,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-7,text,true,,1659,0,1,1,2,0,0
+1486274231873,3,http://172.16.71.234/,200,OK,Thread Group 1-8,text,true,,1659,0,1,1,3,0,0
+1486274231877,2,http://172.16.71.234/#!/login,200,OK,Thread Group 1-8,text,true,,1659,0,1,1,2,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-8,text,false,,1345,0,1,1,0,0,0
+1486274231880,7,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-8,text,true,,301,0,1,1,7,0,0
+1486274231888,56,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-8,text,true,,298,274,1,1,0,0,2
+1486274231944,3,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-8,text,true,,388,0,1,1,3,0,0
+1486274231947,2,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-8,text,true,,1659,0,1,1,2,0,0
+1486274231978,2,http://172.16.71.234/,200,OK,Thread Group 1-9,text,true,,1659,0,1,1,2,0,0
+1486274231980,2,http://172.16.71.234/#!/login,200,OK,Thread Group 1-9,text,true,,1659,0,1,1,2,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-9,text,false,,1345,0,1,1,0,0,0
+1486274231983,5,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-9,text,true,,301,0,1,1,5,0,0
+1486274231989,50,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-9,text,true,,298,274,1,1,0,0,1
+1486274232039,4,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-9,text,true,,388,0,1,1,4,0,0
+1486274232043,2,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-9,text,true,,1659,0,1,1,2,0,0
+1486274232077,2,http://172.16.71.234/,200,OK,Thread Group 1-10,text,true,,1659,0,1,1,2,0,0
+1486274232079,1,http://172.16.71.234/#!/login,200,OK,Thread Group 1-10,text,true,,1659,0,1,1,1,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-10,text,false,,1345,0,1,1,0,0,0
+1486274232081,5,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-10,text,true,,301,0,1,1,5,0,0
+1486274232086,53,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-10,text,true,,298,274,1,1,0,0,1
+1486274232139,4,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-10,text,true,,388,0,1,1,4,0,0
+1486274232143,2,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-10,text,true,,1659,0,1,1,2,0,0
+1486246842950,10,http://172.16.71.234/,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,10,0,0
+1486246842998,3,http://172.16.71.234/#!/login,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,3,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-1,text,false,,1345,0,1,1,0,0,0
+1486246843003,7,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-1,text,true,,301,0,1,1,7,0,0
+1486246843029,5,http://172.16.71.234/,200,OK,Thread Group 1-2,text,true,,1659,0,2,2,5,0,0
+1486246843034,2,http://172.16.71.234/#!/login,200,OK,Thread Group 1-2,text,true,,1659,0,2,2,2,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-2,text,false,,1345,0,2,2,0,0,0
+1486246843037,5,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-2,text,true,,301,0,2,2,5,0,0
+1486246843128,2,http://172.16.71.234/,200,OK,Thread Group 1-3,text,true,,1659,0,3,3,1,0,0
+1486246843130,1,http://172.16.71.234/#!/login,200,OK,Thread Group 1-3,text,true,,1659,0,3,3,1,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-3,text,false,,1345,0,3,3,0,0,0
+1486246843132,5,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-3,text,true,,301,0,3,3,5,0,0
+1486246843232,3,http://172.16.71.234/,200,OK,Thread Group 1-4,text,true,,1659,0,4,4,3,0,0
+1486246843236,3,http://172.16.71.234/#!/login,200,OK,Thread Group 1-4,text,true,,1659,0,4,4,3,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-4,text,false,,1345,0,4,4,0,0,0
+1486246843241,18,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-4,text,true,,301,0,4,4,18,0,0
+1486246843147,143,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-1,text,true,,298,274,4,4,0,0,55
+1486246843291,16,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-1,text,true,,388,0,4,4,16,0,0
+1486246843308,1,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-1,text,true,,1659,0,4,4,1,0,0
+1486246843147,170,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-3,text,true,,298,274,3,3,0,0,55
+1486246843259,58,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-4,text,true,,298,274,3,3,0,0,1
+1486246843147,170,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-2,text,true,,298,274,3,3,0,0,55
+1486246843317,4,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-4,text,true,,388,0,3,3,4,0,0
+1486246843317,6,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-3,text,true,,386,0,3,3,6,0,0
+1486246843318,5,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-2,text,true,,386,0,3,3,5,0,0
+1486246843322,1,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-4,text,true,,1659,0,3,3,1,0,0
+1486246843324,2,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-3,text,true,,1659,0,3,3,2,0,0
+1486246843324,3,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-2,text,true,,1659,0,3,3,3,0,0
+1486246843331,2,http://172.16.71.234/,200,OK,Thread Group 1-5,text,true,,1659,0,1,1,2,0,0
+1486246843333,2,http://172.16.71.234/#!/login,200,OK,Thread Group 1-5,text,true,,1659,0,1,1,1,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-5,text,false,,1345,0,1,1,0,0,0
+1486246843335,5,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-5,text,true,,301,0,1,1,5,0,0
+1486246843341,54,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-5,text,true,,298,274,1,1,0,0,1
+1486246843395,3,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-5,text,true,,388,0,1,1,3,0,0
+1486246843399,1,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-5,text,true,,1659,0,1,1,1,0,0
+1486246843433,3,http://172.16.71.234/,200,OK,Thread Group 1-6,text,true,,1659,0,1,1,3,0,0
+1486246843436,3,http://172.16.71.234/#!/login,200,OK,Thread Group 1-6,text,true,,1659,0,1,1,3,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-6,text,false,,1345,0,1,1,0,0,0
+1486246843440,6,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-6,text,true,,301,0,1,1,6,0,0
+1486246843447,60,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-6,text,true,,298,274,1,1,0,0,2
+1486246843507,4,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-6,text,true,,388,0,1,1,4,0,0
+1486246843511,2,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-6,text,true,,1659,0,1,1,2,0,0
+1486246843534,3,http://172.16.71.234/,200,OK,Thread Group 1-7,text,true,,1659,0,1,1,3,0,0
+1486246843537,3,http://172.16.71.234/#!/login,200,OK,Thread Group 1-7,text,true,,1659,0,1,1,3,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-7,text,false,,1345,0,1,1,0,0,0
+1486246843542,6,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-7,text,true,,301,0,1,1,5,0,0
+1486246843549,56,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-7,text,true,,298,274,1,1,0,0,2
+1486246843605,3,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-7,text,true,,388,0,1,1,3,0,0
+1486246843609,1,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-7,text,true,,1659,0,1,1,1,0,0
+1486246843633,1,http://172.16.71.234/,200,OK,Thread Group 1-8,text,true,,1659,0,1,1,1,0,0
+1486246843634,2,http://172.16.71.234/#!/login,200,OK,Thread Group 1-8,text,true,,1659,0,1,1,2,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-8,text,false,,1345,0,1,1,0,0,0
+1486246843636,5,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-8,text,true,,301,0,1,1,5,0,0
+1486246843642,43,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-8,text,true,,298,274,1,1,0,0,1
+1486246843686,3,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-8,text,true,,388,0,1,1,3,0,0
+1486246843689,2,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-8,text,true,,1659,0,1,1,2,0,0
+1486246843734,3,http://172.16.71.234/,200,OK,Thread Group 1-9,text,true,,1659,0,1,1,2,0,0
+1486246843737,2,http://172.16.71.234/#!/login,200,OK,Thread Group 1-9,text,true,,1659,0,1,1,2,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-9,text,false,,1345,0,1,1,0,0,0
+1486246843741,6,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-9,text,true,,301,0,1,1,6,0,0
+1486246843748,47,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-9,text,true,,298,274,1,1,0,0,2
+1486246843796,3,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-9,text,true,,388,0,1,1,3,0,0
+1486246843799,2,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-9,text,true,,1659,0,1,1,2,0,0
+1486246843835,2,http://172.16.71.234/,200,OK,Thread Group 1-10,text,true,,1659,0,1,1,2,0,0
+1486246843837,2,http://172.16.71.234/#!/login,200,OK,Thread Group 1-10,text,true,,1659,0,1,1,2,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-10,text,false,,1345,0,1,1,0,0,0
+1486246843839,6,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-10,text,true,,301,0,1,1,6,0,0
+1486246843845,51,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-10,text,true,,298,274,1,1,0,0,1
+1486246843896,3,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-10,text,true,,388,0,1,1,3,0,0
+1486246843899,2,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-10,text,true,,1659,0,1,1,2,0,0
+1486246889841,5,http://172.16.71.234/,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,5,0,0
+1486246889856,2,http://172.16.71.234/#!/login,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,2,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-1,text,false,,1345,0,1,1,0,0,0
+1486246889859,6,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-1,text,true,,301,0,1,1,6,0,0
+1486246889941,3,http://172.16.71.234/,200,OK,Thread Group 1-2,text,true,,1659,0,2,2,3,0,0
+1486246889944,2,http://172.16.71.234/#!/login,200,OK,Thread Group 1-2,text,true,,1659,0,2,2,2,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-2,text,false,,1345,0,2,2,0,0,0
+1486246889865,82,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-1,text,true,,298,274,2,2,0,0,1
+1486246889947,4,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-1,text,true,,388,0,2,2,4,0,0
+1486246889946,6,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-2,text,true,,301,0,2,2,6,0,0
+1486246889951,2,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-1,text,true,,1659,0,2,2,2,0,0
+1486246889952,50,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-2,text,true,,298,274,1,1,0,0,1
+1486246890003,4,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-2,text,true,,388,0,1,1,4,0,0
+1486246890007,2,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-2,text,true,,1659,0,1,1,2,0,0
+1486246890045,3,http://172.16.71.234/,200,OK,Thread Group 1-3,text,true,,1659,0,1,1,3,0,0
+1486246890048,3,http://172.16.71.234/#!/login,200,OK,Thread Group 1-3,text,true,,1659,0,1,1,3,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-3,text,false,,1345,0,1,1,0,0,0
+1486246890052,6,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-3,text,true,,301,0,1,1,6,0,0
+1486246890058,47,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-3,text,true,,298,274,1,1,0,0,2
+1486246890105,3,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-3,text,true,,388,0,1,1,3,0,0
+1486246890108,2,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-3,text,true,,1659,0,1,1,2,0,0
+1486246890149,2,http://172.16.71.234/,200,OK,Thread Group 1-4,text,true,,1659,0,1,1,2,0,0
+1486246890151,1,http://172.16.71.234/#!/login,200,OK,Thread Group 1-4,text,true,,1659,0,1,1,1,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-4,text,false,,1345,0,1,1,0,0,0
+1486246890153,5,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-4,text,true,,301,0,1,1,5,0,0
+1486246890158,58,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-4,text,true,,298,274,1,1,0,0,1
+1486246890216,3,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-4,text,true,,388,0,1,1,3,0,0
+1486246890219,2,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-4,text,true,,1659,0,1,1,2,0,0
+1486246890247,2,http://172.16.71.234/,200,OK,Thread Group 1-5,text,true,,1659,0,1,1,2,0,0
+1486246890249,1,http://172.16.71.234/#!/login,200,OK,Thread Group 1-5,text,true,,1659,0,1,1,1,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-5,text,false,,1345,0,1,1,0,0,0
+1486246890251,5,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-5,text,true,,301,0,1,1,5,0,0
+1486246890257,59,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-5,text,true,,298,274,1,1,0,0,1
+1486246890317,4,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-5,text,true,,388,0,1,1,4,0,0
+1486246890321,3,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-5,text,true,,1659,0,1,1,3,0,0
+1486246890348,2,http://172.16.71.234/,200,OK,Thread Group 1-6,text,true,,1659,0,1,1,2,0,0
+1486246890350,2,http://172.16.71.234/#!/login,200,OK,Thread Group 1-6,text,true,,1659,0,1,1,2,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-6,text,false,,1345,0,1,1,0,0,0
+1486246890352,6,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-6,text,true,,301,0,1,1,5,0,0
+1486246890358,59,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-6,text,true,,298,274,1,1,0,0,1
+1486246890418,5,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-6,text,true,,388,0,1,1,5,0,0
+1486246890423,3,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-6,text,true,,1659,0,1,1,2,0,0
+1486246890450,2,http://172.16.71.234/,200,OK,Thread Group 1-7,text,true,,1659,0,1,1,2,0,0
+1486246890452,1,http://172.16.71.234/#!/login,200,OK,Thread Group 1-7,text,true,,1659,0,1,1,1,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-7,text,false,,1345,0,1,1,0,0,0
+1486246890454,5,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-7,text,true,,301,0,1,1,5,0,0
+1486246890460,55,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-7,text,true,,298,274,1,1,0,0,1
+1486246890515,3,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-7,text,true,,388,0,1,1,3,0,0
+1486246890519,1,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-7,text,true,,1659,0,1,1,1,0,0
+1486246890549,2,http://172.16.71.234/,200,OK,Thread Group 1-8,text,true,,1659,0,1,1,2,0,0
+1486246890551,1,http://172.16.71.234/#!/login,200,OK,Thread Group 1-8,text,true,,1659,0,1,1,1,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-8,text,false,,1345,0,1,1,0,0,0
+1486246890553,5,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-8,text,true,,301,0,1,1,5,0,0
+1486246890558,45,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-8,text,true,,298,274,1,1,0,0,2
+1486246890603,3,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-8,text,true,,388,0,1,1,3,0,0
+1486246890606,2,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-8,text,true,,1659,0,1,1,2,0,0
+1486246890647,2,http://172.16.71.234/,200,OK,Thread Group 1-9,text,true,,1659,0,1,1,2,0,0
+1486246890649,1,http://172.16.71.234/#!/login,200,OK,Thread Group 1-9,text,true,,1659,0,1,1,1,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-9,text,false,,1345,0,1,1,0,0,0
+1486246890651,5,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-9,text,true,,301,0,1,1,5,0,0
+1486246890656,49,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-9,text,true,,298,274,1,1,0,0,1
+1486246890705,5,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-9,text,true,,388,0,1,1,5,0,0
+1486246890710,2,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-9,text,true,,1659,0,1,1,2,0,0
+1486246890748,2,http://172.16.71.234/,200,OK,Thread Group 1-10,text,true,,1659,0,1,1,2,0,0
+1486246890751,2,http://172.16.71.234/#!/login,200,OK,Thread Group 1-10,text,true,,1659,0,1,1,2,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-10,text,false,,1345,0,1,1,0,0,0
+1486246890753,5,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-10,text,true,,301,0,1,1,5,0,0
+1486246890759,57,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-10,text,true,,298,274,1,1,0,0,3
+1486246890816,3,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-10,text,true,,388,0,1,1,3,0,0
+1486246890820,1,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-10,text,true,,1659,0,1,1,1,0,0
+1486246958788,3,http://172.16.71.234/,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,3,0,0
+1486246958799,2,http://172.16.71.234/#!/login,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,2,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-1,text,false,,1345,0,1,1,0,0,0
+1486246958801,6,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-1,text,true,,301,0,1,1,6,0,0
+1486246958807,65,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-1,text,true,,298,274,1,1,0,0,1
+1486246958872,3,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-1,text,true,,388,0,1,1,3,0,0
+1486246958876,2,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,2,0,0
+1486246959288,2,http://172.16.71.234/,200,OK,Thread Group 1-2,text,true,,1659,0,1,1,2,0,0
+1486246959291,2,http://172.16.71.234/#!/login,200,OK,Thread Group 1-2,text,true,,1659,0,1,1,2,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-2,text,false,,1345,0,1,1,0,0,0
+1486246959293,5,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-2,text,true,,301,0,1,1,5,0,0
+1486246959299,40,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-2,text,true,,298,274,1,1,0,0,2
+1486246959339,4,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-2,text,true,,388,0,1,1,4,0,0
+1486246959343,2,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-2,text,true,,1659,0,1,1,2,0,0
+1486276632730,82,http://172.16.71.234/,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,82,0,0
+1486276632812,2,http://172.16.71.234/#!/login,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,2,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-1,text,false,,1345,0,1,1,0,0,0
+1486276632816,7,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-1,text,true,,301,0,1,1,7,0,0
+1486276632858,118,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-1,text,true,,298,274,1,1,0,0,47
+1486276632977,5,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-1,text,true,,388,0,1,1,5,0,0
+1486276632982,2,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,2,0,0
+1486276633227,3,http://172.16.71.234/,200,OK,Thread Group 1-2,text,true,,1659,0,1,1,3,0,0
+1486276633231,2,http://172.16.71.234/#!/login,200,OK,Thread Group 1-2,text,true,,1659,0,1,1,2,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-2,text,false,,1345,0,1,1,0,0,0
+1486276633235,5,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-2,text,true,,301,0,1,1,5,0,0
+1486276633241,53,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-2,text,true,,298,274,1,1,0,0,1
+1486276633294,4,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-2,text,true,,388,0,1,1,4,0,0
+1486276633298,2,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-2,text,true,,1659,0,1,1,2,0,0
+1486276639279,3,http://172.16.71.234/,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,3,0,0
+1486276639282,2,http://172.16.71.234/#!/login,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,2,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-1,text,false,,1345,0,1,1,0,0,0
+1486276639285,6,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-1,text,true,,301,0,1,1,6,0,0
+1486276639291,48,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-1,text,true,,298,274,1,1,0,0,1
+1486276639339,3,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-1,text,true,,388,0,1,1,3,0,0
+1486276639343,1,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,1,0,0
+1486276639778,4,http://172.16.71.234/,200,OK,Thread Group 1-2,text,true,,1659,0,1,1,4,0,0
+1486276639782,3,http://172.16.71.234/#!/login,200,OK,Thread Group 1-2,text,true,,1659,0,1,1,2,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-2,text,false,,1345,0,1,1,0,0,0
+1486276639786,6,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-2,text,true,,301,0,1,1,6,0,0
+1486276639793,56,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-2,text,true,,298,274,1,1,0,0,2
+1486276639850,4,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-2,text,true,,388,0,1,1,4,0,0
+1486276639854,3,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-2,text,true,,1659,0,1,1,3,0,0
+1486248090316,4,http://172.16.71.234/,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,4,0,0
+1486248090335,2,http://172.16.71.234/#!/login,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,2,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-1,text,false,,1345,0,1,1,0,0,0
+1486248090338,7,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-1,text,true,,301,0,1,1,7,0,0
+1486248090345,59,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-1,text,true,,298,274,1,1,0,0,1
+1486248090404,3,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-1,text,true,,388,0,1,1,3,0,0
+1486248090408,1,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,1,0,0
+1486248090811,3,http://172.16.71.234/,200,OK,Thread Group 1-2,text,true,,1659,0,1,1,3,0,0
+1486248090814,2,http://172.16.71.234/#!/login,200,OK,Thread Group 1-2,text,true,,1659,0,1,1,2,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-2,text,false,,1345,0,1,1,0,0,0
+1486248090817,5,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-2,text,true,,301,0,1,1,5,0,0
+1486248090822,59,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-2,text,true,,298,274,1,1,0,0,1
+1486248090882,3,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-2,text,true,,388,0,1,1,3,0,0
+1486248090885,2,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-2,text,true,,1659,0,1,1,2,0,0
+1486248108954,4,http://172.16.71.234/,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,4,0,0
+1486248108970,2,http://172.16.71.234/#!/login,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,2,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-1,text,false,,1345,0,1,1,0,0,0
+1486248108973,5,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-1,text,true,,301,0,1,1,5,0,0
+1486248108979,57,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-1,text,true,,298,274,1,1,0,0,1
+1486248109036,4,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-1,text,true,,388,0,1,1,4,0,0
+1486248109040,2,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,2,0,0
+1486248147579,3,http://172.16.71.234/,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,3,0,0
+1486248147590,2,http://172.16.71.234/#!/login,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,2,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-1,text,false,,1345,0,1,1,0,0,0
+1486248147592,6,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-1,text,true,,301,0,1,1,6,0,0
+1486248147598,59,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-1,text,true,,298,274,1,1,0,0,1
+1486248147657,3,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-1,text,true,,388,0,1,1,3,0,0
+1486248147660,2,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,2,0,0
+1486277578150,3,http://172.16.71.234/,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,3,0,0
+1486277578154,1,http://172.16.71.234/#!/login,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,1,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-1,text,false,,1345,0,1,1,0,0,0
+1486277578156,6,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-1,text,true,,301,0,1,1,6,0,0
+1486277578163,72,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-1,text,true,,298,274,1,1,0,0,1
+1486277578236,3,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-1,text,true,,388,0,1,1,3,0,0
+1486277578239,2,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,2,0,0
+1486277602821,4,http://172.16.71.234/,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,4,0,0
+1486277602825,1,http://172.16.71.234/#!/login,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,1,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-1,text,false,,1345,0,1,1,0,0,0
+1486277602827,6,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-1,text,true,,301,0,1,1,6,0,0
+1486277602834,55,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-1,text,true,,298,274,1,1,0,0,1
+1486277602889,3,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-1,text,true,,388,0,1,1,3,0,0
+1486277602892,2,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,2,0,0
+1486277603322,2,http://172.16.71.234/,200,OK,Thread Group 1-2,text,true,,1659,0,1,1,2,0,0
+1486277603325,1,http://172.16.71.234/#!/login,200,OK,Thread Group 1-2,text,true,,1659,0,1,1,1,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-2,text,false,,1345,0,1,1,0,0,0
+1486277603327,5,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-2,text,true,,301,0,1,1,5,0,0
+1486277603333,58,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-2,text,true,,298,274,1,1,0,0,2
+1486277603391,3,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-2,text,true,,388,0,1,1,3,0,0
+1486277603394,2,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-2,text,true,,1659,0,1,1,2,0,0
+1486277755822,4,http://172.16.71.234/,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,4,0,0
+1486277755826,2,http://172.16.71.234/#!/login,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,2,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-1,text,false,,1345,0,1,1,0,0,0
+1486277755829,7,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-1,text,true,,301,0,1,1,7,0,0
+1486277755836,57,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-1,text,true,,298,274,1,1,0,0,1
+1486277755894,3,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-1,text,true,,388,0,1,1,3,0,0
+1486277755898,1,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,1,0,0
+1486277756323,7,http://172.16.71.234/,200,OK,Thread Group 1-2,text,true,,1659,0,1,1,7,0,0
+1486277756330,2,http://172.16.71.234/#!/login,200,OK,Thread Group 1-2,text,true,,1659,0,1,1,2,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-2,text,false,,1345,0,1,1,0,0,0
+1486277756332,6,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-2,text,true,,301,0,1,1,6,0,0
+1486277756338,55,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-2,text,true,,298,274,1,1,0,0,1
+1486277756393,4,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-2,text,true,,388,0,1,1,4,0,0
+1486277756397,2,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-2,text,true,,1659,0,1,1,2,0,0
+1486277881654,3,http://172.16.71.234/,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,3,0,0
+1486277881658,3,http://172.16.71.234/#!/login,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,3,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-1,text,false,,1345,0,1,1,0,0,0
+1486277881662,8,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-1,text,true,,301,0,1,1,8,0,0
+1486277881670,58,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-1,text,true,,298,274,1,1,0,0,1
+1486277881728,3,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-1,text,true,,388,0,1,1,3,0,0
+1486277881732,1,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,1,0,0
+1486277882153,4,http://172.16.71.234/,200,OK,Thread Group 1-2,text,true,,1659,0,1,1,4,0,0
+1486277882158,3,http://172.16.71.234/#!/login,200,OK,Thread Group 1-2,text,true,,1659,0,1,1,3,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-2,text,false,,1345,0,1,1,0,0,0
+1486277882162,7,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-2,text,true,,301,0,1,1,7,0,0
+1486277882170,54,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-2,text,true,,298,274,1,1,0,0,3
+1486277882224,4,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-2,text,true,,388,0,1,1,4,0,0
+1486277882228,2,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-2,text,true,,1659,0,1,1,2,0,0
+1486278007387,4,http://172.16.71.234/,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,4,0,0
+1486278007391,1,http://172.16.71.234/#!/login,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,1,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-1,text,false,,1345,0,1,1,0,0,0
+1486278007393,7,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-1,text,true,,301,0,1,1,7,0,0
+1486278007400,64,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-1,text,true,,298,274,1,1,0,0,7
+1486278007465,4,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-1,text,true,,388,0,1,1,4,0,0
+1486278007469,3,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,3,0,0
+1486278007887,5,http://172.16.71.234/,200,OK,Thread Group 1-2,text,true,,1659,0,1,1,5,0,0
+1486278007892,3,http://172.16.71.234/#!/login,200,OK,Thread Group 1-2,text,true,,1659,0,1,1,3,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-2,text,false,,1345,0,1,1,0,0,0
+1486278007897,7,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-2,text,true,,301,0,1,1,7,0,0
+1486278007905,58,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-2,text,true,,298,274,1,1,0,0,3
+1486278007963,5,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-2,text,true,,388,0,1,1,5,0,0
+1486278007968,3,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-2,text,true,,1659,0,1,1,3,0,0
+1486278078247,3,http://172.16.71.234/,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,3,0,0
+1486278078251,1,http://172.16.71.234/#!/login,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,1,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-1,text,false,,1345,0,1,1,0,0,0
+1486278078253,6,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-1,text,true,,301,0,1,1,6,0,0
+1486278078260,61,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-1,text,true,,457,338,1,1,61,0,4
+1486278078322,3,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-1,text,true,,388,0,1,1,3,0,0
+1486278078325,2,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,2,0,0
+1486278078748,3,http://172.16.71.234/,200,OK,Thread Group 1-2,text,true,,1659,0,1,1,3,0,0
+1486278078752,2,http://172.16.71.234/#!/login,200,OK,Thread Group 1-2,text,true,,1659,0,1,1,2,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-2,text,false,,1345,0,1,1,0,0,0
+1486278078756,6,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-2,text,true,,301,0,1,1,6,0,0
+1486278078763,52,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-2,text,true,,457,338,1,1,52,0,2
+1486278078816,3,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-2,text,true,,388,0,1,1,3,0,0
+1486278078819,2,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-2,text,true,,1659,0,1,1,2,0,0
+1486278131253,6,http://172.16.71.234/,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,6,0,0
+1486278131259,1,http://172.16.71.234/#!/login,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,1,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-1,text,false,,1345,0,1,1,0,0,0
+1486278131261,5,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-1,text,true,,301,0,1,1,5,0,0
+1486278131267,5,http://172.16.71.234/api/v1/authentication,401,Unauthorized,Thread Group 1-1,text,false,,314,364,1,1,5,0,1
+1486278131272,4,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-1,text,true,,388,0,1,1,4,0,0
+1486278131276,1,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,1,0,0
+1486278131753,2,http://172.16.71.234/,200,OK,Thread Group 1-2,text,true,,1659,0,1,1,2,0,0
+1486278131755,2,http://172.16.71.234/#!/login,200,OK,Thread Group 1-2,text,true,,1659,0,1,1,2,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-2,text,false,,1345,0,1,1,0,0,0
+1486278131757,5,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-2,text,true,,301,0,1,1,5,0,0
+1486278131763,4,http://172.16.71.234/api/v1/authentication,401,Unauthorized,Thread Group 1-2,text,false,,314,364,1,1,4,0,1
+1486278131767,3,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-2,text,true,,388,0,1,1,3,0,0
+1486278131771,1,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-2,text,true,,1659,0,1,1,1,0,0
+1486278263730,3,http://172.16.71.234/,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,3,0,0
+1486278263733,2,http://172.16.71.234/#!/login,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,2,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-1,text,false,,1345,0,1,1,0,0,0
+1486278263736,6,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-1,text,true,,301,0,1,1,6,0,0
+1486278263743,4,http://172.16.71.234/api/v1/authentication,401,Unauthorized,Thread Group 1-1,text,false,,314,364,1,1,4,0,1
+1486278263748,3,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-1,text,true,,388,0,1,1,3,0,0
+1486278263751,1,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,1,0,0
+1486278264230,17,http://172.16.71.234/,200,OK,Thread Group 1-2,text,true,,1659,0,1,1,17,0,0
+1486278264248,3,http://172.16.71.234/#!/login,200,OK,Thread Group 1-2,text,true,,1659,0,1,1,3,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-2,text,false,,1345,0,1,1,0,0,0
+1486278264253,8,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-2,text,true,,301,0,1,1,8,0,0
+1486278264262,9,http://172.16.71.234/api/v1/authentication,401,Unauthorized,Thread Group 1-2,text,false,,314,364,1,1,9,0,5
+1486278264271,4,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-2,text,true,,388,0,1,1,4,0,0
+1486278264275,2,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-2,text,true,,1659,0,1,1,2,0,0
+1486278308904,3,http://172.16.71.234/,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,3,0,0
+1486278308907,2,http://172.16.71.234/#!/login,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,2,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-1,text,false,,1345,0,1,1,0,0,0
+1486278308910,5,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-1,text,true,,301,0,1,1,5,0,0
+1486278308915,5,http://172.16.71.234/api/v1/authentication,401,Unauthorized,Thread Group 1-1,text,false,,314,364,1,1,5,0,1
+1486278308920,3,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-1,text,true,,388,0,1,1,3,0,0
+1486278308924,1,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,1,0,0
+1486278309404,4,http://172.16.71.234/,200,OK,Thread Group 1-2,text,true,,1659,0,1,1,4,0,0
+1486278309408,3,http://172.16.71.234/#!/login,200,OK,Thread Group 1-2,text,true,,1659,0,1,1,2,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-2,text,false,,1345,0,1,1,0,0,0
+1486278309412,6,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-2,text,true,,301,0,1,1,6,0,0
+1486278309419,7,http://172.16.71.234/api/v1/authentication,401,Unauthorized,Thread Group 1-2,text,false,,314,364,1,1,7,0,2
+1486278309427,4,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-2,text,true,,388,0,1,1,4,0,0
+1486278309431,2,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-2,text,true,,1659,0,1,1,2,0,0
+1486278702373,4,http://172.16.71.234/,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,4,0,0
+1486278702378,2,http://172.16.71.234/#!/login,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,2,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-1,text,false,,1345,0,1,1,0,0,0
+1486278702381,7,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-1,text,true,,301,0,1,1,7,0,0
+1486278702388,4,http://172.16.71.234/api/v1/authentication,401,Unauthorized,Thread Group 1-1,text,false,,314,364,1,1,4,0,1
+1486278702393,3,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-1,text,true,,388,0,1,1,3,0,0
+1486278702396,2,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,2,0,0
+1486278702874,6,http://172.16.71.234/,200,OK,Thread Group 1-2,text,true,,1659,0,1,1,6,0,0
+1486278702880,2,http://172.16.71.234/#!/login,200,OK,Thread Group 1-2,text,true,,1659,0,1,1,2,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-2,text,false,,1345,0,1,1,0,0,0
+1486278702882,6,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-2,text,true,,301,0,1,1,6,0,0
+1486278702888,9,http://172.16.71.234/api/v1/authentication,401,Unauthorized,Thread Group 1-2,text,false,,314,364,1,1,9,0,6
+1486278702897,4,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-2,text,true,,388,0,1,1,4,0,0
+1486278702901,2,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-2,text,true,,1659,0,1,1,2,0,0
+1486278749379,5,http://172.16.71.234/,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,5,0,0
+1486278749384,1,http://172.16.71.234/#!/login,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,1,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-1,text,false,,1345,0,1,1,0,0,0
+1486278749386,6,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-1,text,true,,301,0,1,1,6,0,0
+1486278749392,4,http://172.16.71.234/api/v1/authentication,401,Unauthorized,Thread Group 1-1,text,false,,314,364,1,1,4,0,1
+1486278749396,4,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-1,text,true,,388,0,1,1,4,0,0
+1486278749400,1,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,1,0,0
+1486278749880,5,http://172.16.71.234/,200,OK,Thread Group 1-2,text,true,,1659,0,1,1,5,0,0
+1486278749885,3,http://172.16.71.234/#!/login,200,OK,Thread Group 1-2,text,true,,1659,0,1,1,3,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-2,text,false,,1345,0,1,1,0,0,0
+1486278749889,7,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-2,text,true,,301,0,1,1,7,0,0
+1486278749897,8,http://172.16.71.234/api/v1/authentication,401,Unauthorized,Thread Group 1-2,text,false,,314,364,1,1,8,0,3
+1486278749905,5,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-2,text,true,,388,0,1,1,5,0,0
+1486278749911,2,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-2,text,true,,1659,0,1,1,2,0,0
+1486278759459,3,http://172.16.71.234/,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,3,0,0
+1486278759462,2,http://172.16.71.234/#!/login,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,2,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-1,text,false,,1345,0,1,1,0,0,0
+1486278759464,6,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-1,text,true,,301,0,1,1,6,0,0
+1486278759470,7,http://172.16.71.234/api/v1/authentication,401,Unauthorized,Thread Group 1-1,text,false,,314,364,1,1,7,0,4
+1486278759477,3,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-1,text,true,,388,0,1,1,3,0,0
+1486278759480,2,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,2,0,0
+1486278759959,2,http://172.16.71.234/,200,OK,Thread Group 1-2,text,true,,1659,0,1,1,2,0,0
+1486278759961,2,http://172.16.71.234/#!/login,200,OK,Thread Group 1-2,text,true,,1659,0,1,1,2,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-2,text,false,,1345,0,1,1,0,0,0
+1486278759964,5,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-2,text,true,,301,0,1,1,5,0,0
+1486278759970,4,http://172.16.71.234/api/v1/authentication,401,Unauthorized,Thread Group 1-2,text,false,,314,364,1,1,4,0,1
+1486278759974,3,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-2,text,true,,388,0,1,1,3,0,0
+1486278759977,1,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-2,text,true,,1659,0,1,1,1,0,0
+1486278988202,3,http://172.16.71.234/,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,3,0,0
+1486278988206,1,http://172.16.71.234/#!/login,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,1,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-1,text,false,,1345,0,1,1,0,0,0
+1486278988208,7,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-1,text,true,,301,0,1,1,7,0,0
+1486278988215,5,http://172.16.71.234/api/v1/authentication,401,Unauthorized,Thread Group 1-1,text,false,,314,340,1,1,5,0,1
+1486278988220,3,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-1,text,true,,388,0,1,1,3,0,0
+1486278988223,1,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,1,0,0
+1486278988700,3,http://172.16.71.234/,200,OK,Thread Group 1-2,text,true,,1659,0,1,1,3,0,0
+1486278988703,2,http://172.16.71.234/#!/login,200,OK,Thread Group 1-2,text,true,,1659,0,1,1,2,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-2,text,false,,1345,0,1,1,0,0,0
+1486278988705,6,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-2,text,true,,301,0,1,1,6,0,0
+1486278988711,5,http://172.16.71.234/api/v1/authentication,401,Unauthorized,Thread Group 1-2,text,false,,314,340,1,1,5,0,2
+1486278988716,4,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-2,text,true,,388,0,1,1,4,0,0
+1486278988720,1,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-2,text,true,,1659,0,1,1,1,0,0
+1486279048649,3,http://172.16.71.234/,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,3,0,0
+1486279048652,2,http://172.16.71.234/#!/login,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,2,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-1,text,false,,1345,0,1,1,0,0,0
+1486279048654,6,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-1,text,true,,301,0,1,1,6,0,0
+1486279048661,126,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-1,text,true,,464,338,1,1,126,0,1
+1486279048787,4,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-1,text,true,,388,0,1,1,4,0,0
+1486279048791,1,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,1,0,0
+1486279049149,2,http://172.16.71.234/,200,OK,Thread Group 1-2,text,true,,1659,0,1,1,2,0,0
+1486279049152,1,http://172.16.71.234/#!/login,200,OK,Thread Group 1-2,text,true,,1659,0,1,1,1,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-2,text,false,,1345,0,1,1,0,0,0
+1486279049153,6,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-2,text,true,,301,0,1,1,6,0,0
+1486279049159,57,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-2,text,true,,457,338,1,1,57,0,1
+1486279049216,11,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-2,text,true,,388,0,1,1,11,0,0
+1486279049228,3,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-2,text,true,,1659,0,1,1,3,0,0
+1486281276912,4,http://172.16.71.234/,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,4,0,0
+1486281276917,1,http://172.16.71.234/#!/login,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,1,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-1,text,false,,1345,0,1,1,0,0,0
+1486281276919,7,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-1,text,true,,301,0,1,1,7,0,0
+1486281276926,52,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-1,text,true,,464,338,1,1,52,0,2
+1486281276978,3,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-1,text,true,,388,0,1,1,3,0,0
+1486281276982,1,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,1,0,0
+1486281276984,2,uploadfile,405,Method Not Allowed,Thread Group 1-1,text,false,,735,353,1,1,2,0,0
+1486281277412,3,http://172.16.71.234/,200,OK,Thread Group 1-2,text,true,,1659,0,1,1,3,0,0
+1486281277416,2,http://172.16.71.234/#!/login,200,OK,Thread Group 1-2,text,true,,1659,0,1,1,2,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-2,text,false,,1345,0,1,1,0,0,0
+1486281277419,6,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-2,text,true,,301,0,1,1,6,0,0
+1486281277426,52,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-2,text,true,,457,338,1,1,52,0,2
+1486281277478,3,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-2,text,true,,388,0,1,1,3,0,0
+1486281277481,2,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-2,text,true,,1659,0,1,1,2,0,0
+1486281277483,3,uploadfile,405,Method Not Allowed,Thread Group 1-2,text,false,,735,353,1,1,3,0,0
+1486281338167,3,http://172.16.71.234/,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,3,0,0
+1486281338170,2,http://172.16.71.234/#!/login,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,2,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-1,text,false,,1345,0,1,1,0,0,0
+1486281338172,6,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-1,text,true,,301,0,1,1,6,0,0
+1486281338179,62,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-1,text,true,,464,338,1,1,62,0,1
+1486281338241,4,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-1,text,true,,388,0,1,1,4,0,0
+1486281338245,2,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,2,0,0
+1486281338247,2,uploadfile,405,Method Not Allowed,Thread Group 1-1,text,false,,735,357,1,1,2,0,0
+1486281338667,4,http://172.16.71.234/,200,OK,Thread Group 1-2,text,true,,1659,0,1,1,4,0,0
+1486281338671,2,http://172.16.71.234/#!/login,200,OK,Thread Group 1-2,text,true,,1659,0,1,1,2,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-2,text,false,,1345,0,1,1,0,0,0
+1486281338674,6,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-2,text,true,,301,0,1,1,6,0,0
+1486281338680,62,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-2,text,true,,457,338,1,1,62,0,2
+1486281338742,4,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-2,text,true,,388,0,1,1,4,0,0
+1486281338746,2,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-2,text,true,,1659,0,1,1,2,0,0
+1486281338749,4,uploadfile,405,Method Not Allowed,Thread Group 1-2,text,false,,735,357,1,1,4,0,0
+1486281366083,3,http://172.16.71.234/,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,3,0,0
+1486281366086,2,http://172.16.71.234/#!/login,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,2,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-1,text,false,,1345,0,1,1,0,0,0
+1486281366088,6,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-1,text,true,,301,0,1,1,6,0,0
+1486281366094,68,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-1,text,true,,464,338,1,1,68,0,1
+1486281366162,3,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-1,text,true,,388,0,1,1,3,0,0
+1486281366165,2,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,2,0,0
+1486281366167,3,uploadfile,405,Method Not Allowed,Thread Group 1-1,text,false,,735,409,1,1,3,0,0
+1486281366583,2,http://172.16.71.234/,200,OK,Thread Group 1-2,text,true,,1659,0,1,1,2,0,0
+1486281366585,1,http://172.16.71.234/#!/login,200,OK,Thread Group 1-2,text,true,,1659,0,1,1,1,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-2,text,false,,1345,0,1,1,0,0,0
+1486281366587,5,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-2,text,true,,301,0,1,1,5,0,0
+1486281366592,59,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-2,text,true,,457,338,1,1,59,0,1
+1486281366651,3,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-2,text,true,,388,0,1,1,3,0,0
+1486281366654,2,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-2,text,true,,1659,0,1,1,2,0,0
+1486281366656,2,uploadfile,405,Method Not Allowed,Thread Group 1-2,text,false,,735,409,1,1,2,0,0
+1486281436573,3,http://172.16.71.234/,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,3,0,0
+1486281436576,2,http://172.16.71.234/#!/login,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,2,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-1,text,false,,1345,0,1,1,0,0,0
+1486281436578,6,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-1,text,true,,301,0,1,1,6,0,0
+1486281436584,65,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-1,text,true,,464,338,1,1,65,0,1
+1486281436650,3,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-1,text,true,,388,0,1,1,3,0,0
+1486281436653,1,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,1,0,0
+1486281437073,6,http://172.16.71.234/,200,OK,Thread Group 1-2,text,true,,1659,0,2,2,6,0,0
+1486281437080,3,http://172.16.71.234/#!/login,200,OK,Thread Group 1-2,text,true,,1659,0,2,2,3,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-2,text,false,,1345,0,2,2,0,0,0
+1486281437084,6,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-2,text,true,,301,0,2,2,6,0,0
+1486281437091,70,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-2,text,true,,457,338,2,2,70,0,3
+1486281437162,4,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-2,text,true,,388,0,2,2,4,0,0
+1486281437166,3,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-2,text,true,,1659,0,2,2,3,0,0
+1486281436655,1119,uploadfile,200,OK,Thread Group 1-1,text,true,,333,22220,2,2,1119,0,0
+1486281437169,1061,uploadfile,200,OK,Thread Group 1-2,text,true,,333,22205,1,1,1061,0,0
+1486281482460,4,http://172.16.71.234/,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,4,0,0
+1486281482464,2,http://172.16.71.234/#!/login,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,2,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-1,text,false,,1345,0,1,1,0,0,0
+1486281482466,7,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-1,text,true,,301,0,1,1,7,0,0
+1486281482473,53,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-1,text,true,,464,338,1,1,53,0,1
+1486281482526,3,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-1,text,true,,388,0,1,1,3,0,0
+1486281482530,1,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,1,0,0
+1486281482531,11,uploadfile,400,Bad Request,Thread Group 1-1,text,false,,693,22145,1,1,11,0,0
+1486281482961,5,http://172.16.71.234/,200,OK,Thread Group 1-2,text,true,,1659,0,1,1,5,0,0
+1486281482967,2,http://172.16.71.234/#!/login,200,OK,Thread Group 1-2,text,true,,1659,0,1,1,2,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-2,text,false,,1345,0,1,1,0,0,0
+1486281482971,7,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-2,text,true,,301,0,1,1,7,0,0
+1486281482979,103,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-2,text,true,,457,338,1,1,103,0,3
+1486281483082,4,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-2,text,true,,388,0,1,1,4,0,0
+1486281483086,2,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-2,text,true,,1659,0,1,1,2,0,0
+1486281483089,12,uploadfile,400,Bad Request,Thread Group 1-2,text,false,,693,22142,1,1,12,0,0
+1486281508530,3,http://172.16.71.234/,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,3,0,0
+1486281508533,2,http://172.16.71.234/#!/login,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,2,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-1,text,false,,1345,0,1,1,0,0,0
+1486281508536,5,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-1,text,true,,301,0,1,1,5,0,0
+1486281508541,64,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-1,text,true,,464,338,1,1,64,0,2
+1486281508605,4,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-1,text,true,,388,0,1,1,4,0,0
+1486281508609,1,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,1,0,0
+1486281509031,8,http://172.16.71.234/,200,OK,Thread Group 1-2,text,true,,1659,0,2,2,8,0,0
+1486281509040,2,http://172.16.71.234/#!/login,200,OK,Thread Group 1-2,text,true,,1659,0,2,2,2,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-2,text,false,,1345,0,2,2,0,0,0
+1486281509043,8,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-2,text,true,,301,0,2,2,8,0,0
+1486281509052,54,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-2,text,true,,457,338,2,2,54,0,4
+1486281509106,4,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-2,text,true,,388,0,2,2,4,0,0
+1486281509110,2,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-2,text,true,,1659,0,2,2,2,0,0
+1486281508611,1030,uploadfile,200,OK,Thread Group 1-1,text,true,,333,22168,2,2,1030,0,0
+1486281509113,1017,uploadfile,200,OK,Thread Group 1-2,text,true,,333,22174,1,1,1017,0,0
+1486281896320,2,http://172.16.71.234/,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,2,0,0
+1486281896323,6,http://172.16.71.234/#!/login,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,6,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-1,text,false,,1345,0,1,1,0,0,0
+1486281896329,5,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-1,text,true,,301,0,1,1,5,0,0
+1486281896335,55,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-1,text,true,,464,338,1,1,55,0,1
+1486281896391,3,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-1,text,true,,388,0,1,1,3,0,0
+1486281896395,2,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,2,0,0
+1486281896820,3,http://172.16.71.234/,200,OK,Thread Group 1-2,text,true,,1659,0,2,2,3,0,0
+1486281896824,3,http://172.16.71.234/#!/login,200,OK,Thread Group 1-2,text,true,,1659,0,2,2,3,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-2,text,false,,1345,0,2,2,0,0,0
+1486281896828,6,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-2,text,true,,301,0,2,2,6,0,0
+1486281896834,69,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-2,text,true,,457,338,2,2,69,0,3
+1486281896904,8,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-2,text,true,,388,0,2,2,8,0,0
+1486281896912,2,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-2,text,true,,1659,0,2,2,2,0,0
+1486281896397,1786,uploadfile,200,OK,Thread Group 1-1,text,true,,341,22168,2,2,1786,0,0
+1486281896914,1892,uploadfile,200,OK,Thread Group 1-2,text,true,,341,22174,1,1,1892,0,0
+1486282083169,3,http://172.16.71.234/,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,3,0,0
+1486282083172,1,http://172.16.71.234/#!/login,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,1,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-1,text,false,,1345,0,1,1,0,0,0
+1486282083174,6,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-1,text,true,,301,0,1,1,6,0,0
+1486282083180,54,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-1,text,true,,464,338,1,1,54,0,1
+1486282083234,4,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-1,text,true,,388,0,1,1,4,0,0
+1486282083238,1,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-1,text,true,,1659,0,1,1,1,0,0
+1486282083670,5,http://172.16.71.234/,200,OK,Thread Group 1-2,text,true,,1659,0,2,2,5,0,0
+1486282083676,2,http://172.16.71.234/#!/login,200,OK,Thread Group 1-2,text,true,,1659,0,2,2,2,0,0
+0,0,,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: protocol = http host = null,Thread Group 1-2,text,false,,1345,0,2,2,0,0,0
+1486282083679,6,http://172.16.71.234/api/v1/checkRegistered,200,OK,Thread Group 1-2,text,true,,301,0,2,2,6,0,0
+1486282083686,60,http://172.16.71.234/api/v1/authentication,200,OK,Thread Group 1-2,text,true,,457,338,2,2,60,0,2
+1486282083746,3,http://172.16.71.234/api/v1/license/getLicenseTimeExpired,200,OK,Thread Group 1-2,text,true,,388,0,2,2,3,0,0
+1486282083750,1,http://172.16.71.234/#!/systemSnap,200,OK,Thread Group 1-2,text,true,,1659,0,2,2,1,0,0
+1486282083239,1891,uploadfile,200,OK,Thread Group 1-1,text,true,,341,22171,2,2,1891,0,0
+1486282083752,1934,uploadfile,200,OK,Thread Group 1-2,text,true,,341,22177,1,1,1934,0,0

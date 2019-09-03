@@ -1,0 +1,4 @@
+uu1_i,uu1_i@qq.com,group1_i,USER,15,group1_i普通读写共享,0,5,uu1_i读写存档
+uu2_i,uu2_i@qq.com,group2_i,USER,0,group2_i普通只读共享,0,1,uu2_i只读存档
+uu3_i,uu3_i@qq.com,group3_i,GROUP,15,group3_i默认读写共享,1,5,staff_i读写存档
+uu4_i,uu4_i@qq.com,group4_i,GROUP,0,group4_i默认只读共享,1,1,staff_i只读存档

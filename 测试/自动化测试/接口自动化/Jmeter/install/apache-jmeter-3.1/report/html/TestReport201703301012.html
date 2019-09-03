@@ -1,0 +1,743 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Load Test Results</title>
+<style type="text/css">
+				body {
+					font:normal 68% verdana,arial,helvetica;
+					color:#000000;
+				}
+				table tr td, table tr th {
+					font-size: 68%;
+				}
+				table.details tr th{
+				    color: #ffffff;
+					font-weight: bold;
+					text-align:center;
+					background:#2674a6;
+					white-space: nowrap;
+				}
+				table.details tr td{
+					background:#eeeee0;
+					white-space: nowrap;
+				}
+				h1 {
+					margin: 0px 0px 5px; font: 165% verdana,arial,helvetica
+				}
+				h2 {
+					margin-top: 1em; margin-bottom: 0.5em; font: bold 125% verdana,arial,helvetica
+				}
+				h3 {
+					margin-bottom: 0.5em; font: bold 115% verdana,arial,helvetica
+				}
+				.Failure {
+					font-weight:bold; color:red;
+				}
+				
+	
+				img
+				{
+				  border-width: 0px;
+				}
+				
+				.expand_link
+				{
+				   position=absolute;
+				   right: 0px;
+				   width: 27px;
+				   top: 1px;
+				   height: 27px;
+				}
+				
+				.page_details
+				{
+				   display: none;
+				}
+                                
+                                .page_details_expanded
+                                {
+                                    display: block;
+                                    display/* hide this definition from  IE5/6 */: table-row;
+                                }
+
+
+			</style>
+<script language="JavaScript">
+                           function expand(details_id)
+			   {
+			      
+			      document.getElementById(details_id).className = "page_details_expanded";
+			   }
+			   
+			   function collapse(details_id)
+			   {
+			      
+			      document.getElementById(details_id).className = "page_details";
+			   }
+			   
+			   function change(details_id)
+			   {
+			      if(document.getElementById(details_id+"_image").src.match("expand"))
+			      {
+			         document.getElementById(details_id+"_image").src = "collapse.png";
+			         expand(details_id);
+			      }
+			      else
+			      {
+			         document.getElementById(details_id+"_image").src = "expand.png";
+			         collapse(details_id);
+			      } 
+                           }
+			</script>
+</head>
+<body>
+<h1>Load Test Results</h1>
+<table width="100%">
+<tr>
+<td align="left">Date report: 2017/03/30 10:12</td><td align="right">Designed for use with <a href="http://jmeter.apache.org/">JMeter</a> and <a href="http://ant.apache.org">Ant</a>.</td>
+</tr>
+</table>
+<hr size="1">
+<h2>Summary</h2>
+<table width="95%" cellspacing="2" cellpadding="5" border="0" class="details" align="center">
+<tr valign="top">
+<th># Samples</th><th>Failures</th><th>Success Rate</th><th>Average Time</th><th>Min Time</th><th>Max Time</th>
+</tr>
+<tr valign="top" class="Failure">
+<td align="center">100</td><td align="center">10</td><td align="center">90.00%</td><td align="center">1057 ms</td><td align="center">1 ms</td><td align="center">6113 ms</td>
+</tr>
+</table>
+<hr align="center" width="95%" size="1">
+<h2>Pages</h2>
+<table width="95%" cellspacing="2" cellpadding="5" border="0" class="details" align="center">
+<tr valign="top">
+<th>URL</th><th># Samples</th><th>Failures</th><th>Success Rate</th><th>Average Time</th><th>Min Time</th><th>Max Time</th><th></th>
+</tr>
+<tr valign="top" class="Failure">
+<td><a href="#%E6%96%B0%E5%A2%9E%E7%94%A8%E6%88%B7%E7%BB%84">新增用户组</a></td><td align="center">10</td><td align="center">10</td><td align="right">0.00%</td><td align="right">19 ms</td><td align="right">12 ms</td><td align="right">45 ms</td><td align="center"><a href="javascript:change('page_details_1')"><img alt="expand/collapse" src="expand.png" id="page_details_1_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_1">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "新增用户组"</b>
+<table width="95%" cellspacing="1" cellpadding="1" border="0" bgcolor="#2674A6" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>多用户日常操作 1-1</td><td align="center">1</td><td align="right">45</td><td align="right">413</td><td align="center">false</td>
+</tr>
+<tr>
+<td>多用户日常操作 1-1</td><td align="center">2</td><td align="right">45</td><td align="right">413</td><td align="center">false</td>
+</tr>
+<tr>
+<td>多用户日常操作 1-2</td><td align="center">3</td><td align="right">12</td><td align="right">413</td><td align="center">false</td>
+</tr>
+<tr>
+<td>多用户日常操作 1-2</td><td align="center">4</td><td align="right">12</td><td align="right">413</td><td align="center">false</td>
+</tr>
+<tr>
+<td>多用户日常操作 1-3</td><td align="center">5</td><td align="right">14</td><td align="right">413</td><td align="center">false</td>
+</tr>
+<tr>
+<td>多用户日常操作 1-3</td><td align="center">6</td><td align="right">14</td><td align="right">413</td><td align="center">false</td>
+</tr>
+<tr>
+<td>多用户日常操作 1-5</td><td align="center">7</td><td align="right">12</td><td align="right">413</td><td align="center">false</td>
+</tr>
+<tr>
+<td>多用户日常操作 1-5</td><td align="center">8</td><td align="right">12</td><td align="right">413</td><td align="center">false</td>
+</tr>
+<tr>
+<td>多用户日常操作 1-4</td><td align="center">9</td><td align="right">13</td><td align="right">413</td><td align="center">false</td>
+</tr>
+<tr>
+<td>多用户日常操作 1-4</td><td align="center">10</td><td align="right">13</td><td align="right">413</td><td align="center">false</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>post文件上传</td><td align="center">5</td><td align="center">0</td><td align="right">100.00%</td><td align="right">5854 ms</td><td align="right">5471 ms</td><td align="right">6113 ms</td><td align="center"><a href="javascript:change('page_details_2')"><img alt="expand/collapse" src="expand.png" id="page_details_2_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_2">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "post文件上传"</b>
+<table width="95%" cellspacing="1" cellpadding="1" border="0" bgcolor="#2674A6" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>多用户日常操作 1-3</td><td align="center">1</td><td align="right">5976</td><td align="right">303</td><td align="center">true</td>
+</tr>
+<tr>
+<td>多用户日常操作 1-5</td><td align="center">2</td><td align="right">5976</td><td align="right">303</td><td align="center">true</td>
+</tr>
+<tr>
+<td>多用户日常操作 1-4</td><td align="center">3</td><td align="right">5734</td><td align="right">303</td><td align="center">true</td>
+</tr>
+<tr>
+<td>多用户日常操作 1-2</td><td align="center">4</td><td align="right">5471</td><td align="right">303</td><td align="center">true</td>
+</tr>
+<tr>
+<td>多用户日常操作 1-1</td><td align="center">5</td><td align="right">6113</td><td align="right">303</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>多用户文件上传线程组</td><td align="center">5</td><td align="center">0</td><td align="right">100.00%</td><td align="right">5854 ms</td><td align="right">5471 ms</td><td align="right">6113 ms</td><td align="center"><a href="javascript:change('page_details_3')"><img alt="expand/collapse" src="expand.png" id="page_details_3_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_3">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "多用户文件上传线程组"</b>
+<table width="95%" cellspacing="1" cellpadding="1" border="0" bgcolor="#2674A6" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>多用户日常操作 1-3</td><td align="center">1</td><td align="right">5976</td><td align="right">303</td><td align="center">true</td>
+</tr>
+<tr>
+<td>多用户日常操作 1-5</td><td align="center">2</td><td align="right">5976</td><td align="right">303</td><td align="center">true</td>
+</tr>
+<tr>
+<td>多用户日常操作 1-4</td><td align="center">3</td><td align="right">5734</td><td align="right">303</td><td align="center">true</td>
+</tr>
+<tr>
+<td>多用户日常操作 1-2</td><td align="center">4</td><td align="right">5471</td><td align="right">303</td><td align="center">true</td>
+</tr>
+<tr>
+<td>多用户日常操作 1-1</td><td align="center">5</td><td align="right">6113</td><td align="right">303</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>文件下载</td><td align="center">5</td><td align="center">0</td><td align="right">100.00%</td><td align="right">1144 ms</td><td align="right">1044 ms</td><td align="right">1206 ms</td><td align="center"><a href="javascript:change('page_details_4')"><img alt="expand/collapse" src="expand.png" id="page_details_4_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_4">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "文件下载"</b>
+<table width="95%" cellspacing="1" cellpadding="1" border="0" bgcolor="#2674A6" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>多用户日常操作 1-3</td><td align="center">1</td><td align="right">1173</td><td align="right">279</td><td align="center">true</td>
+</tr>
+<tr>
+<td>多用户日常操作 1-5</td><td align="center">2</td><td align="right">1206</td><td align="right">279</td><td align="center">true</td>
+</tr>
+<tr>
+<td>多用户日常操作 1-4</td><td align="center">3</td><td align="right">1152</td><td align="right">279</td><td align="center">true</td>
+</tr>
+<tr>
+<td>多用户日常操作 1-2</td><td align="center">4</td><td align="right">1144</td><td align="right">279</td><td align="center">true</td>
+</tr>
+<tr>
+<td>多用户日常操作 1-1</td><td align="center">5</td><td align="right">1044</td><td align="right">279</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>多用户下载</td><td align="center">5</td><td align="center">0</td><td align="right">100.00%</td><td align="right">1144 ms</td><td align="right">1044 ms</td><td align="right">1206 ms</td><td align="center"><a href="javascript:change('page_details_5')"><img alt="expand/collapse" src="expand.png" id="page_details_5_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_5">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "多用户下载"</b>
+<table width="95%" cellspacing="1" cellpadding="1" border="0" bgcolor="#2674A6" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>多用户日常操作 1-3</td><td align="center">1</td><td align="right">1173</td><td align="right">279</td><td align="center">true</td>
+</tr>
+<tr>
+<td>多用户日常操作 1-5</td><td align="center">2</td><td align="right">1206</td><td align="right">279</td><td align="center">true</td>
+</tr>
+<tr>
+<td>多用户日常操作 1-4</td><td align="center">3</td><td align="right">1152</td><td align="right">279</td><td align="center">true</td>
+</tr>
+<tr>
+<td>多用户日常操作 1-2</td><td align="center">4</td><td align="right">1144</td><td align="right">279</td><td align="center">true</td>
+</tr>
+<tr>
+<td>多用户日常操作 1-1</td><td align="center">5</td><td align="right">1044</td><td align="right">279</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>加载全部文件 文件夹</td><td align="center">5</td><td align="center">0</td><td align="right">100.00%</td><td align="right">1005 ms</td><td align="right">965 ms</td><td align="right">1062 ms</td><td align="center"><a href="javascript:change('page_details_6')"><img alt="expand/collapse" src="expand.png" id="page_details_6_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_6">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "加载全部文件 文件夹"</b>
+<table width="95%" cellspacing="1" cellpadding="1" border="0" bgcolor="#2674A6" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>多用户日常操作 1-5</td><td align="center">1</td><td align="right">1062</td><td align="right">2890</td><td align="center">true</td>
+</tr>
+<tr>
+<td>多用户日常操作 1-3</td><td align="center">2</td><td align="right">1002</td><td align="right">3155</td><td align="center">true</td>
+</tr>
+<tr>
+<td>多用户日常操作 1-4</td><td align="center">3</td><td align="right">1017</td><td align="right">2890</td><td align="center">true</td>
+</tr>
+<tr>
+<td>多用户日常操作 1-2</td><td align="center">4</td><td align="right">978</td><td align="right">2890</td><td align="center">true</td>
+</tr>
+<tr>
+<td>多用户日常操作 1-1</td><td align="center">5</td><td align="right">965</td><td align="right">2890</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>打开个人文件夹</td><td align="center">5</td><td align="center">0</td><td align="right">100.00%</td><td align="right">948 ms</td><td align="right">926 ms</td><td align="right">976 ms</td><td align="center"><a href="javascript:change('page_details_7')"><img alt="expand/collapse" src="expand.png" id="page_details_7_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_7">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "打开个人文件夹"</b>
+<table width="95%" cellspacing="1" cellpadding="1" border="0" bgcolor="#2674A6" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>多用户日常操作 1-5</td><td align="center">1</td><td align="right">955</td><td align="right">826</td><td align="center">true</td>
+</tr>
+<tr>
+<td>多用户日常操作 1-3</td><td align="center">2</td><td align="right">926</td><td align="right">826</td><td align="center">true</td>
+</tr>
+<tr>
+<td>多用户日常操作 1-2</td><td align="center">3</td><td align="right">942</td><td align="right">826</td><td align="center">true</td>
+</tr>
+<tr>
+<td>多用户日常操作 1-4</td><td align="center">4</td><td align="right">939</td><td align="right">826</td><td align="center">true</td>
+</tr>
+<tr>
+<td>多用户日常操作 1-1</td><td align="center">5</td><td align="right">976</td><td align="right">826</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>普通用户浏览文件列表(已登录、打开个人文件夹)</td><td align="center">5</td><td align="center">0</td><td align="right">100.00%</td><td align="right">1952 ms</td><td align="right">1920 ms</td><td align="right">2017 ms</td><td align="center"><a href="javascript:change('page_details_8')"><img alt="expand/collapse" src="expand.png" id="page_details_8_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_8">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "普通用户浏览文件列表(已登录、打开个人文件夹)"</b>
+<table width="95%" cellspacing="1" cellpadding="1" border="0" bgcolor="#2674A6" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>多用户日常操作 1-5</td><td align="center">1</td><td align="right">2017</td><td align="right">3716</td><td align="center">true</td>
+</tr>
+<tr>
+<td>多用户日常操作 1-3</td><td align="center">2</td><td align="right">1928</td><td align="right">3981</td><td align="center">true</td>
+</tr>
+<tr>
+<td>多用户日常操作 1-2</td><td align="center">3</td><td align="right">1920</td><td align="right">3716</td><td align="center">true</td>
+</tr>
+<tr>
+<td>多用户日常操作 1-4</td><td align="center">4</td><td align="right">1956</td><td align="right">3716</td><td align="center">true</td>
+</tr>
+<tr>
+<td>多用户日常操作 1-1</td><td align="center">5</td><td align="right">1941</td><td align="right">3716</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>访问服务器</td><td align="center">5</td><td align="center">0</td><td align="right">100.00%</td><td align="right">2 ms</td><td align="right">1 ms</td><td align="right">3 ms</td><td align="center"><a href="javascript:change('page_details_9')"><img alt="expand/collapse" src="expand.png" id="page_details_9_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_9">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "访问服务器"</b>
+<table width="95%" cellspacing="1" cellpadding="1" border="0" bgcolor="#2674A6" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>多用户日常操作 1-5</td><td align="center">1</td><td align="right">2</td><td align="right">2994</td><td align="center">true</td>
+</tr>
+<tr>
+<td>多用户日常操作 1-3</td><td align="center">2</td><td align="right">2</td><td align="right">2994</td><td align="center">true</td>
+</tr>
+<tr>
+<td>多用户日常操作 1-2</td><td align="center">3</td><td align="right">1</td><td align="right">2994</td><td align="center">true</td>
+</tr>
+<tr>
+<td>多用户日常操作 1-4</td><td align="center">4</td><td align="right">2</td><td align="right">2994</td><td align="center">true</td>
+</tr>
+<tr>
+<td>多用户日常操作 1-1</td><td align="center">5</td><td align="right">3</td><td align="right">2994</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>加载登录页面</td><td align="center">5</td><td align="center">0</td><td align="right">100.00%</td><td align="right">2 ms</td><td align="right">1 ms</td><td align="right">3 ms</td><td align="center"><a href="javascript:change('page_details_10')"><img alt="expand/collapse" src="expand.png" id="page_details_10_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_10">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "加载登录页面"</b>
+<table width="95%" cellspacing="1" cellpadding="1" border="0" bgcolor="#2674A6" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>多用户日常操作 1-5</td><td align="center">1</td><td align="right">3</td><td align="right">2994</td><td align="center">true</td>
+</tr>
+<tr>
+<td>多用户日常操作 1-3</td><td align="center">2</td><td align="right">3</td><td align="right">2994</td><td align="center">true</td>
+</tr>
+<tr>
+<td>多用户日常操作 1-2</td><td align="center">3</td><td align="right">1</td><td align="right">2994</td><td align="center">true</td>
+</tr>
+<tr>
+<td>多用户日常操作 1-4</td><td align="center">4</td><td align="right">2</td><td align="right">2994</td><td align="center">true</td>
+</tr>
+<tr>
+<td>多用户日常操作 1-1</td><td align="center">5</td><td align="right">2</td><td align="right">2994</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>身份验证 是否有此用户</td><td align="center">5</td><td align="center">0</td><td align="right">100.00%</td><td align="right">7 ms</td><td align="right">5 ms</td><td align="right">13 ms</td><td align="center"><a href="javascript:change('page_details_11')"><img alt="expand/collapse" src="expand.png" id="page_details_11_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_11">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "身份验证 是否有此用户"</b>
+<table width="95%" cellspacing="1" cellpadding="1" border="0" bgcolor="#2674A6" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>多用户日常操作 1-5</td><td align="center">1</td><td align="right">5</td><td align="right">301</td><td align="center">true</td>
+</tr>
+<tr>
+<td>多用户日常操作 1-3</td><td align="center">2</td><td align="right">7</td><td align="right">301</td><td align="center">true</td>
+</tr>
+<tr>
+<td>多用户日常操作 1-2</td><td align="center">3</td><td align="right">5</td><td align="right">301</td><td align="center">true</td>
+</tr>
+<tr>
+<td>多用户日常操作 1-4</td><td align="center">4</td><td align="right">13</td><td align="right">301</td><td align="center">true</td>
+</tr>
+<tr>
+<td>多用户日常操作 1-1</td><td align="center">5</td><td align="right">7</td><td align="right">301</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>身份验证</td><td align="center">5</td><td align="center">0</td><td align="right">100.00%</td><td align="right">55 ms</td><td align="right">49 ms</td><td align="right">61 ms</td><td align="center"><a href="javascript:change('page_details_12')"><img alt="expand/collapse" src="expand.png" id="page_details_12_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_12">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "身份验证"</b>
+<table width="95%" cellspacing="1" cellpadding="1" border="0" bgcolor="#2674A6" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>多用户日常操作 1-5</td><td align="center">1</td><td align="right">61</td><td align="right">460</td><td align="center">true</td>
+</tr>
+<tr>
+<td>多用户日常操作 1-3</td><td align="center">2</td><td align="right">54</td><td align="right">460</td><td align="center">true</td>
+</tr>
+<tr>
+<td>多用户日常操作 1-2</td><td align="center">3</td><td align="right">49</td><td align="right">460</td><td align="center">true</td>
+</tr>
+<tr>
+<td>多用户日常操作 1-4</td><td align="center">4</td><td align="right">54</td><td align="right">460</td><td align="center">true</td>
+</tr>
+<tr>
+<td>多用户日常操作 1-1</td><td align="center">5</td><td align="right">55</td><td align="right">462</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>检查license</td><td align="center">5</td><td align="center">0</td><td align="right">100.00%</td><td align="right">3 ms</td><td align="right">3 ms</td><td align="right">4 ms</td><td align="center"><a href="javascript:change('page_details_13')"><img alt="expand/collapse" src="expand.png" id="page_details_13_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_13">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "检查license"</b>
+<table width="95%" cellspacing="1" cellpadding="1" border="0" bgcolor="#2674A6" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>多用户日常操作 1-5</td><td align="center">1</td><td align="right">4</td><td align="right">388</td><td align="center">true</td>
+</tr>
+<tr>
+<td>多用户日常操作 1-3</td><td align="center">2</td><td align="right">3</td><td align="right">388</td><td align="center">true</td>
+</tr>
+<tr>
+<td>多用户日常操作 1-2</td><td align="center">3</td><td align="right">3</td><td align="right">388</td><td align="center">true</td>
+</tr>
+<tr>
+<td>多用户日常操作 1-4</td><td align="center">4</td><td align="right">3</td><td align="right">388</td><td align="center">true</td>
+</tr>
+<tr>
+<td>多用户日常操作 1-1</td><td align="center">5</td><td align="right">4</td><td align="right">388</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>http://172.16.71.232/#!/fileshare/allfiles</td><td align="center">5</td><td align="center">0</td><td align="right">100.00%</td><td align="right">2 ms</td><td align="right">1 ms</td><td align="right">3 ms</td><td align="center"><a href="javascript:change('page_details_14')"><img alt="expand/collapse" src="expand.png" id="page_details_14_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_14">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "http://172.16.71.232/#!/fileshare/allfiles"</b>
+<table width="95%" cellspacing="1" cellpadding="1" border="0" bgcolor="#2674A6" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>多用户日常操作 1-5</td><td align="center">1</td><td align="right">3</td><td align="right">2994</td><td align="center">true</td>
+</tr>
+<tr>
+<td>多用户日常操作 1-3</td><td align="center">2</td><td align="right">1</td><td align="right">2994</td><td align="center">true</td>
+</tr>
+<tr>
+<td>多用户日常操作 1-2</td><td align="center">3</td><td align="right">1</td><td align="right">2994</td><td align="center">true</td>
+</tr>
+<tr>
+<td>多用户日常操作 1-4</td><td align="center">4</td><td align="right">3</td><td align="right">2994</td><td align="center">true</td>
+</tr>
+<tr>
+<td>多用户日常操作 1-1</td><td align="center">5</td><td align="right">2</td><td align="right">2994</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>http://172.16.71.232/api/v1/filelists/getAdminName</td><td align="center">5</td><td align="center">0</td><td align="right">100.00%</td><td align="right">11 ms</td><td align="right">8 ms</td><td align="right">12 ms</td><td align="center"><a href="javascript:change('page_details_15')"><img alt="expand/collapse" src="expand.png" id="page_details_15_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_15">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "http://172.16.71.232/api/v1/filelists/getAdminName"</b>
+<table width="95%" cellspacing="1" cellpadding="1" border="0" bgcolor="#2674A6" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>多用户日常操作 1-5</td><td align="center">1</td><td align="right">12</td><td align="right">328</td><td align="center">true</td>
+</tr>
+<tr>
+<td>多用户日常操作 1-3</td><td align="center">2</td><td align="right">8</td><td align="right">328</td><td align="center">true</td>
+</tr>
+<tr>
+<td>多用户日常操作 1-2</td><td align="center">3</td><td align="right">12</td><td align="right">328</td><td align="center">true</td>
+</tr>
+<tr>
+<td>多用户日常操作 1-4</td><td align="center">4</td><td align="right">10</td><td align="right">328</td><td align="center">true</td>
+</tr>
+<tr>
+<td>多用户日常操作 1-1</td><td align="center">5</td><td align="right">11</td><td align="right">328</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>获取文件列表</td><td align="center">5</td><td align="center">0</td><td align="right">100.00%</td><td align="right">936 ms</td><td align="right">896 ms</td><td align="right">962 ms</td><td align="center"><a href="javascript:change('page_details_16')"><img alt="expand/collapse" src="expand.png" id="page_details_16_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_16">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "获取文件列表"</b>
+<table width="95%" cellspacing="1" cellpadding="1" border="0" bgcolor="#2674A6" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>多用户日常操作 1-5</td><td align="center">1</td><td align="right">957</td><td align="right">773</td><td align="center">true</td>
+</tr>
+<tr>
+<td>多用户日常操作 1-3</td><td align="center">2</td><td align="right">950</td><td align="right">773</td><td align="center">true</td>
+</tr>
+<tr>
+<td>多用户日常操作 1-2</td><td align="center">3</td><td align="right">915</td><td align="right">773</td><td align="center">true</td>
+</tr>
+<tr>
+<td>多用户日常操作 1-4</td><td align="center">4</td><td align="right">896</td><td align="right">773</td><td align="center">true</td>
+</tr>
+<tr>
+<td>多用户日常操作 1-1</td><td align="center">5</td><td align="right">962</td><td align="right">773</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>获取用户信息</td><td align="center">5</td><td align="center">0</td><td align="right">100.00%</td><td align="right">11 ms</td><td align="right">10 ms</td><td align="right">14 ms</td><td align="center"><a href="javascript:change('page_details_17')"><img alt="expand/collapse" src="expand.png" id="page_details_17_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_17">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "获取用户信息"</b>
+<table width="95%" cellspacing="1" cellpadding="1" border="0" bgcolor="#2674A6" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>多用户日常操作 1-5</td><td align="center">1</td><td align="right">14</td><td align="right">762</td><td align="center">true</td>
+</tr>
+<tr>
+<td>多用户日常操作 1-3</td><td align="center">2</td><td align="right">10</td><td align="right">762</td><td align="center">true</td>
+</tr>
+<tr>
+<td>多用户日常操作 1-2</td><td align="center">3</td><td align="right">10</td><td align="right">762</td><td align="center">true</td>
+</tr>
+<tr>
+<td>多用户日常操作 1-4</td><td align="center">4</td><td align="right">10</td><td align="right">762</td><td align="center">true</td>
+</tr>
+<tr>
+<td>多用户日常操作 1-1</td><td align="center">5</td><td align="right">10</td><td align="right">766</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>查看qutoa值</td><td align="center">5</td><td align="center">0</td><td align="right">100.00%</td><td align="right">575 ms</td><td align="right">556 ms</td><td align="right">600 ms</td><td align="center"><a href="javascript:change('page_details_18')"><img alt="expand/collapse" src="expand.png" id="page_details_18_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_18">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "查看qutoa值"</b>
+<table width="95%" cellspacing="1" cellpadding="1" border="0" bgcolor="#2674A6" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>多用户日常操作 1-5</td><td align="center">1</td><td align="right">571</td><td align="right">385</td><td align="center">true</td>
+</tr>
+<tr>
+<td>多用户日常操作 1-3</td><td align="center">2</td><td align="right">556</td><td align="right">385</td><td align="center">true</td>
+</tr>
+<tr>
+<td>多用户日常操作 1-2</td><td align="center">3</td><td align="right">575</td><td align="right">385</td><td align="center">true</td>
+</tr>
+<tr>
+<td>多用户日常操作 1-4</td><td align="center">4</td><td align="right">572</td><td align="right">385</td><td align="center">true</td>
+</tr>
+<tr>
+<td>多用户日常操作 1-1</td><td align="center">5</td><td align="right">600</td><td align="right">385</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>普通用户登录、获取文件列表</td><td align="center">5</td><td align="center">0</td><td align="right">100.00%</td><td align="right">1604 ms</td><td align="right">1565 ms</td><td align="right">1656 ms</td><td align="center"><a href="javascript:change('page_details_19')"><img alt="expand/collapse" src="expand.png" id="page_details_19_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_19">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "普通用户登录、获取文件列表"</b>
+<table width="95%" cellspacing="1" cellpadding="1" border="0" bgcolor="#2674A6" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>多用户日常操作 1-5</td><td align="center">1</td><td align="right">1632</td><td align="right">12379</td><td align="center">true</td>
+</tr>
+<tr>
+<td>多用户日常操作 1-3</td><td align="center">2</td><td align="right">1594</td><td align="right">12379</td><td align="center">true</td>
+</tr>
+<tr>
+<td>多用户日常操作 1-2</td><td align="center">3</td><td align="right">1572</td><td align="right">12379</td><td align="center">true</td>
+</tr>
+<tr>
+<td>多用户日常操作 1-4</td><td align="center">4</td><td align="right">1565</td><td align="right">12379</td><td align="center">true</td>
+</tr>
+<tr>
+<td>多用户日常操作 1-1</td><td align="center">5</td><td align="right">1656</td><td align="right">12385</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+</table>
+<hr align="center" width="95%" size="1">
+<h2>Failure Detail</h2>
+<h3>新增用户组<a name="%E6%96%B0%E5%A2%9E%E7%94%A8%E6%88%B7%E7%BB%84"></a>
+</h3>
+<table width="95%" cellspacing="2" cellpadding="5" border="0" class="details" align="center">
+<tr valign="top">
+<th>Response</th><th>Failure Message</th>
+</tr>
+<tr>
+<td>403 - Forbidden</td><td></td>
+</tr>
+<tr>
+<td> - Number of samples in transaction : 1, number of failing samples : 1</td><td></td>
+</tr>
+<tr>
+<td>403 - Forbidden</td><td></td>
+</tr>
+<tr>
+<td> - Number of samples in transaction : 1, number of failing samples : 1</td><td></td>
+</tr>
+<tr>
+<td>403 - Forbidden</td><td></td>
+</tr>
+<tr>
+<td> - Number of samples in transaction : 1, number of failing samples : 1</td><td></td>
+</tr>
+<tr>
+<td>403 - Forbidden</td><td></td>
+</tr>
+<tr>
+<td> - Number of samples in transaction : 1, number of failing samples : 1</td><td></td>
+</tr>
+<tr>
+<td>403 - Forbidden</td><td></td>
+</tr>
+<tr>
+<td> - Number of samples in transaction : 1, number of failing samples : 1</td><td></td>
+</tr>
+</table>
+</body>
+</html>
