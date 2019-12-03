@@ -14,8 +14,13 @@ init(){
 }
 
 create_lvm(){
+  gmsg "--------------------------------------->Disk list:"
+  fdisk -l | grep -i disk.*/dev
+  gmsg "--------------------------------------->Disk list end!"
   read -p "please input device for lv,for example[sda]" dev
+  dev=$dev
   read -p "please input device size,for example[100G]" size
+  size=${size:=100G}
   size_num=${size%G*}
 
 fdisk /dev/$dev <<EOF
@@ -38,7 +43,8 @@ EOF
   fdisk -l | grep -A 10 "Device.*Boot"
   gmsg "--------------------------------------->partition list end!"
   read -p "please input partition for pv,for example[sda5]" partition
-
+  
+  #partition default 100G
   pv -c /dev/$partition && vg -c data /dev/$partition && lv -c $((size_num - 2))G volume data
 }
 
@@ -57,7 +63,14 @@ delete_lvm(){
   read -p "Please enter the partition to delete PV,for example[sda5]" partition
   pv -r /dev/$partition
   #delete partition
-  
+  read -p "Please enter the device that has LVM partitioned,for example[sda]" dev
+fdisk /dev/$dev <<EOF
+d
+
+d
+
+w
+EOF
 }
 
 main(){
