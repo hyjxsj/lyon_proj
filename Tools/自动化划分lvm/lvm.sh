@@ -35,7 +35,7 @@ l
 +$((size_num - 1))G
 w
 EOF
-
+  
   #apt install
   apt update && apt install parted && partprobe /dev/$dev
 
