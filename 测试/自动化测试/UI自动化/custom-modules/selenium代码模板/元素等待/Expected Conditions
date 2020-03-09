@@ -1,0 +1,22 @@
+在本例中，我们在使用 expected_conditions 类时对其时行了重命名，通过 as 关键字对其重命名为 EC，
+并调用 presence_of_element_located()判断元素是否存在。
+expected_conditions 类提供一些预期条件的实现。
+title_is 用于判断标题是否 xx。
+title_contains 用于判断标题是否包含 xx 信息。
+presence_of_element_located 元素是否存在。
+visibility_of_element_located 元素是否可见。
+visibility_of 是否可见
+presence_of_all_elements_located 判断一组元素的是否存在
+text_to_be_present_in_element 判断元素是否有 xx 文本信息
+text_to_be_present_in_element_value 判断元素值是否有 xx 文本信息
+frame_to_be_available_and_switch_to_it 表单是否可用，并切换到该表单。
+invisibility_of_element_located 判断元素是否隐藏
+element_to_be_clickable 判断元素是否点击，它处于可见和启动状态
+staleness_of 等到一个元素不再是依附于 DOM。
+element_to_be_selected 被选中的元素。
+element_located_to_be_selected 一个期望的元素位于被选中。
+element_selection_state_to_be 一个期望检查如果给定的元素被选中。
+element_located_selection_state_to_be 期望找到一个元素并检查是否选择状态
+alert_is_present 预期一个警告信息
+除了 expected_conditions 所提供的预期方法，我们也可以使用前面学过的 is_displayed()方法来判断元
+素是否可。
