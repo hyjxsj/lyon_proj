@@ -10,10 +10,10 @@ from selenium import webdriver
 
 #all dir config
 #testcase dir
-testCase_dir = u"D:\\Code\\Github\\lyon_proj\\测试\\自动化项目\\测试百度\\autoTest\\run\\core"
+testCase_dir = "D:\\Workstation\\Code\\Python\\Pytho3.5\\Python_study\\Workstation\\Workspace\\tools\\autoTest\\run\\core"
 now = time.strftime("%Y-%m-%d %H_%M_%S")
-report_FilePath = u"D:\\Code\\Github\\lyon_proj\\测试\\自动化项目\\测试百度\\autoTest\\run\\report\\"
-report_FileName = u"D:\\Code\\Github\\lyon_proj\\测试\\自动化项目\\测试百度\\autoTest\\run\\report\\" + now + 'result.html'
+report_FilePath = "D:\\Workstation\\Code\\Python\\Pytho3.5\\Python_study\\Workstation\\Workspace\\tools\\autoTest\\run\\report\\"
+report_FileName = "D:\\Workstation\\Code\\Python\\Pytho3.5\\Python_study\\Workstation\\Workspace\\tools\\autoTest\\run\\report\\" + now + 'result.html'
 
 
 #para
