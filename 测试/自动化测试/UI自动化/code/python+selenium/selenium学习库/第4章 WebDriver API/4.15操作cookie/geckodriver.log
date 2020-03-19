@@ -1,0 +1,32 @@
+1583842033953	geckodriver	INFO	Listening on 127.0.0.1:64205
+1583842036980	mozprofile::profile	INFO	Using profile path C:\Users\ALIENW~1\AppData\Local\Temp\rust_mozprofile.ZQj1XolSawyb
+1583842036990	geckodriver::marionette	INFO	Starting browser D:\Program Files\Mozilla Firefox\firefox.exe
+1583842037005	geckodriver::marionette	INFO	Connecting to Marionette on localhost:64213
+1583842037884	Marionette	INFO	Listening on port 64213
+JavaScript error: chrome://marionette/content/listener.js, line 1155: NS_ERROR_FILE_NOT_FOUND: 
+1583842067023	geckodriver	INFO	Listening on 127.0.0.1:64237
+1583842070056	mozprofile::profile	INFO	Using profile path C:\Users\ALIENW~1\AppData\Local\Temp\rust_mozprofile.78pFjlyPYvfk
+1583842070066	geckodriver::marionette	INFO	Starting browser D:\Program Files\Mozilla Firefox\firefox.exe
+1583842070081	geckodriver::marionette	INFO	Connecting to Marionette on localhost:64245
+1583842070881	Marionette	INFO	Listening on port 64245
+JavaScript error: chrome://marionette/content/listener.js, line 1155: NS_ERROR_FILE_NOT_FOUND: 
+1583842449455	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+INFO	Using profile path C:\Users\ALIENW~1\AppData\Local\Temp\rust_mozprofile.7o7aGLMTykjh
+1583842094401	geckodriver::marionette	INFO	Starting browser D:\Program Files\Mozilla Firefox\firefox.exe
+1583842094417	geckodriver::marionette	INFO	Connecting to Marionette on localhost:64272
+1583842095204	Marionette	INFO	Listening on port 64272
+1583842275647	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1583842644384	geckodriver	INFO	Listening on 127.0.0.1:64428
+1583842647421	mozprofile::profile	INFO	Using profile path C:\Users\ALIENW~1\AppData\Local\Temp\rust_mozprofile.9K0KBbPgY6tZ
+1583842647441	geckodriver::marionette	INFO	Starting browser D:\Program Files\Mozilla Firefox\firefox.exe
+1583842647455	geckodriver::marionette	INFO	Connecting to Marionette on localhost:64436
+1583842648142	Marionette	INFO	Listening on port 64436
+JavaScript error: https://www.fastly-insights.com/insights.js?k=6a52360a-f306-421e-8ed5-7417d0d4a4e9&dnt=true, line 55: SyntaxError: missing = in const declaration
+JavaScript warning: https://pypi.org/static/js/warehouse.092c6255.js, line 1: mutating the [[Prototype]] of an object will cause your code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create
+1583842980162	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+JavaScript warning: resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/environment.js, line 15: Proxy.create and Proxy.createFunction are deprecated, use new Proxy instead
+JavaScript warning: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/vendor/react-redux.js, line 409: mutating the [[Prototype]] of an object will cause your code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create
+JavaScript warning: chrome://pocket/content/pktApi.jsm, line 615: String.prototype.contains() is deprecated and will be removed in a future release; use String.prototype.includes() instead
+JavaScript error: , line 0: NetworkError: A network error occurred.
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/layout/utils.js, line 32: NS_NOINTERFACE: 
+JavaScript warning: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/vendor/react-redux.js, line 409: mutating the [[Prototype]] of an object will cause your code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create
