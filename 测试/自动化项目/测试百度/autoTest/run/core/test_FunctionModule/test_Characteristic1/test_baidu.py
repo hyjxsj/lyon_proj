@@ -19,7 +19,10 @@ class testcase1(unittest.TestCase):
     def testcase1(self):
         driver = self.driver
         driver.get(self.base_url + "/")
-        print("\n----------end")
+        driver.find_element_by_xpath('//*[@id="kw"]').send_keys("123")
+        driver.find_element_by_xpath('//*[@id="su"]').click()
+        time.sleep(2)
+        self.assertEqual(u"123_百度搜索",driver.title)
 
     def tearDown(self):
         pass
