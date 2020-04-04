@@ -3,7 +3,7 @@ _Auth_ = "yangyang.huang"
 
 import HTMLTestRunner
 from ..config import config
-from ..tools import createsuite
+from run.tools import createsuite
 from . import send_email
 
 suite = createsuite.createsuite()
@@ -11,6 +11,7 @@ def runner():
     fp = open(config.report_FileName, 'wb')
     runner = HTMLTestRunner.HTMLTestRunner(
         stream=fp,
+        verbosity=2,
         title=u'【模板】-测试报告',
         description=u'用例执行情况：')
     runner.run(suite)

@@ -16,7 +16,7 @@ report_FilePath = u"D:\\Code\\Github\\lyon_proj\\测试\\自动化项目\\flexsa
 report_FileName = u"D:\\Code\\Github\\lyon_proj\\测试\\自动化项目\\flexsafe-1.9.5\\run\\report\\" + now + 'result.html'
 
 #para
-base_url = "http://192.168.56.101:8080/#!/login"
+base_url = "http://192.168.0.109:8080/#!/login"
 
 #浏览器类型
 browser_type = "chrome"

@@ -4,7 +4,8 @@ _Auth_ = "yangyang.huang"
 import sys,time
 import unittest
 from selenium import webdriver
-from ....config import config
+from run.config import config
+from web_driver_wait2 import WebDriverWait2
 
 class login(unittest.TestCase):
     def setUp(self):
@@ -18,12 +19,19 @@ class login(unittest.TestCase):
     def test_login_success(self):
         driver = self.driver
         driver.get(self.base_url + "/")
-        driver.find_element_by_xpath('//*[@id="username"]').send_keys("batman")
+        driver.implicitly_wait(3)
+        ele = WebDriverWait2(self.driver,ele_by_xpath='//*[@id="username"]').explicitly(5)
+        ele.send_keys("batman")
         driver.find_element_by_xpath('//*[@id="password"]').send_keys("123qwe")
         driver.find_element_by_xpath('//*[@id="login_submit"]').click()
-        
         time.sleep(3)
-        print("\n----------end")
+        self.assertEqual(driver.title,"Flex Safe Web",msg="登录失败")
+
+    def test_login_failed(self):
+        driver = self.driver
+        driver.get("http://www.baidu.com")
+        title = driver.title
+        print(title)
 
     def tearDown(self):
         self.driver.quit()

@@ -16,6 +16,3 @@ def createsuite():
             test_suite.addTest(testcase)
             print(testcase)
     return  test_suite
-
-    print("111111")
-

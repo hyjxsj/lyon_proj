@@ -11,4 +11,4 @@ subject = 'Python email test'
 smtpserver = 'smtp.exmail.qq.com'
 # 发送邮箱用户/密码
 username = 'yangyang.huang@cloudfortdata.com'
-password = '2wsx@WSX'
+password = 'Huia_910322'
