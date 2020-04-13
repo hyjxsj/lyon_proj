@@ -1,10 +1,11 @@
-#-*- coding:utf8 -*-
+#-*- coding:utf-8 -*-
 __author = "huia"
 
 import requests
 from requests.exceptions import RequestException
 import random
 import re
+from bs4 import BeautifulSoup
 
 def get_one_page(url):
     my_headers = [
@@ -27,18 +28,27 @@ def get_one_page(url):
         response = requests.get(url,headers=headers)
         response.encoding = 'utf-8'
         if response.status_code == 200:
-            return response.text
+            return response
         return None
     except RequestException:
         return None
+def parse_one_page(text):
+    pattern = re.compile('<a.*?title="(.*?)">.*?</a>',re.S)
+    soup = BeautifulSoup(text,'lxml')
+    results = soup.find_all('a')
+    print(type(results))
+    res = re.findall(pattern,str(results))
+    for index,rr in enumerate(res):
+        print(index,rr)
 
 def main():
     url = "http://maoyan.com/board/4?"
     html = get_one_page(url)
-    print(html)
+    print(html.status_code)
+    print(html.text)
+    parse_one_page(html.text)
 
-def parse_one_page(html):
-    pattern = re.compile('<dd>.*?')
+
 if __name__ == '__main__':
     main()
 
