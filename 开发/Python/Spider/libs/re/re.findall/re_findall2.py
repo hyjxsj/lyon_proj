@@ -1,5 +1,5 @@
-#-*- coding:utf-8 -*-
-__author = "huia"
+#-*- coding=utf-8 -*-
+_Auth_ = "yangyang.huang"
 
 import re
 
@@ -23,8 +23,10 @@ html = '''<div id="songs-list">
         </li>
     </ul>
 </div>'''
-results = re.findall('<li.*?href="(.*?)".*?singer="(.*?)">(.*?)</a>',html,re.S)
+
+results = re.findall('<li.*?>\s*?(<a.*?>)?(\w+)(</a>)?',html)
 print(results)
-print(type(results))
-for index,result in enumerate(results):
-    print(index+1,result[2])
+results = re.findall('<li.*?>\s*?(<a.*?>)?(\w+)(</a>)?',html,re.S)
+print(results)
+results = re.findall('<li.*?>\s*?(<a.*?>)?(\w+)(</a>)?\s*?</li>', html, re.S)
+print(results)
