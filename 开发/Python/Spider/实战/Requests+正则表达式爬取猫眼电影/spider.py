@@ -38,15 +38,32 @@ def parse_one_page(text):
     results = soup.find_all('a')
     print(type(results))
     res = re.findall(pattern,str(results))
+    print(res)
     for index,rr in enumerate(res):
         print(index,rr)
+def parse_one_page2(text):
+    pattern = re.compile('<dd>.*?board-index.*?>(\d+)</i>.*?data-src="(.*?)".*?name"><a'
+                         +'.*?>(.*?)</a>.*?star">(.*?)</p>.*?releasetime">(.*?)</p>'
+                          +'.*?integer">(.*?)</i.*?fraction">(.*?)</i>.*?</dd>',re.S)
+    items = re.findall(pattern,text)
+    print(items)
+    print('格式化后如下'.center(50,'-'))
+    for item in items:
+        yield {
+            'index':items[0],
+            'index':,
+            'index':,
+            'index':,
+            'index':,
+            'index':
+        }
 
 def main():
     url = "http://maoyan.com/board/4?"
     html = get_one_page(url)
     print(html.status_code)
     print(html.text)
-    parse_one_page(html.text)
+    parse_one_page2(html.text)
 
 
 if __name__ == '__main__':
