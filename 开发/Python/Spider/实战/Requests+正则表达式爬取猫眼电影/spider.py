@@ -2,13 +2,16 @@
 __author = "huia"
 
 import requests
-from requests.exceptions import RequestException
 import random
 import re
+import json
+from requests.exceptions import RequestException
 from bs4 import BeautifulSoup
+from multiprocessing import Pool
+
 
 def get_one_page(url):
-    my_headers = [
+    agent = [
         "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36",
         "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 Safari/537.36",
         "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:30.0) Gecko/20100101 Firefox/30.0",
@@ -23,7 +26,9 @@ def get_one_page(url):
         "Mozilla/5.0 (X11; Linux i686) AppleWebKit/535.7 (KHTML, like Gecko) Ubuntu/11.04 Chromium/16.0.912.77 Chrome/16.0.912.77 Safari/535.7",
         "Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:10.0) Gecko/20100101 Firefox/10.0 "
     ]
-    headers = {'user-Agent': random.choice(my_headers)}
+    headers = {
+        'user-Agent': random.choice(agent)
+    }
     try:
         response = requests.get(url,headers=headers)
         response.encoding = 'utf-8'
@@ -50,22 +55,34 @@ def parse_one_page2(text):
     print('格式化后如下'.center(50,'-'))
     for item in items:
         yield {
-            'index':items[0],
-            'index':,
-            'index':,
-            'index':,
-            'index':,
-            'index':
+            'index':item[0],
+            'image':item[1],
+            'title':item[2],
+            'actor':item[3].strip()[3:],
+            'time':item[4].strip()[5:],
+            'score':item[5]+item[6]
         }
 
-def main():
-    url = "http://maoyan.com/board/4?"
+def write_to_file(content):
+    with open('result.txt','a',encoding='utf-8') as f:
+        f.write(json.dumps(content,ensure_ascii=False) + '\n')
+        f.close()
+def main(offset):
+    url = "http://maoyan.com/board/4?offset=" + str(offset)
     html = get_one_page(url)
     print(html.status_code)
     print(html.text)
-    parse_one_page2(html.text)
-
+    for item in parse_one_page2(html.text):
+        print(item)
+        write_to_file(item)
 
 if __name__ == '__main__':
-    main()
+    #正常单线程
+    '''
+    for i in range(10):
+    main(i*10)
+    '''
 
+    #多进程
+    pool = Pool()
+    pool.map(main,[i*10 for i in range(10)])
