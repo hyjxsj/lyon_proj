@@ -1,9 +1,0 @@
-drop database if exists boxsafe;
-drop database if exists flexsafe;
-drop user if exists 'boxsafe'@'localhost';
-create database boxsafe;
-create user 'boxsafe'@'localhost' identified by 'cloudfort';
-grant all privileges on boxsafe.* to 'boxsafe'@'localhost';
-flush privileges;
-
-
