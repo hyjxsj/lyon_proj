@@ -1,0 +1,1 @@
+1、python run.py时，如果启动失败，根据错误提示，使用pip install安装缺失的第三方库
