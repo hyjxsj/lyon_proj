@@ -1,0 +1,21 @@
+首先，本文旨在说明在公网云主机和内网服务器部署frp+shadowsocks
+
+1、frp和shadowsocks服务部署好之后，需要配置客户端连接参数
+{
+    "server":"0.0.0.0",
+    "server_ipv6":"::",
+    "server_port":9000,
+    "local_address":"127.0.0.1",
+    "local_port":1080,
+    "password":"password0",
+    "timeout":120,
+    "method":"aes-256-cfb",
+    "protocol":"origin",
+    "protocol_param":"",
+    "obfs":"plain",
+    "obfs_param":"",
+    "redirect":"",
+    "dns_ipv6":false,
+    "fast_open":true,
+    "workers":1
+}
