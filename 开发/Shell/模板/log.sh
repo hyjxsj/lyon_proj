@@ -1,8 +1,15 @@
 #!/bin/bash
+###############################################
+# Date: 2020-8-10                             #
+# Auth: Lukas                                 #
+# Mail: yangyang.huang@cloudfortdata.com      #
+# Func: deploy sstap service & frp            #
+# Ver.: 1.0                                   #
+###############################################
 
 LOG_DIR="/var/log"
-ROOT_UID="0"
 
+ROOT_UID="0"
 [ $ROOT_UID != "$UID" ] && { echo "Must be root to run this script.";exit 1; }
 
 cd $LOG_DIR || {
