@@ -3,7 +3,7 @@
 # Date: 2020-8-10                             #
 # Auth: Lukas                                 #
 # Mail: yangyang.huang@cloudfortdata.com      #
-# Func: deploy sstap service & frp            #
+# Func: des for script
 # Ver.: 1.0                                   #
 ###############################################
 
