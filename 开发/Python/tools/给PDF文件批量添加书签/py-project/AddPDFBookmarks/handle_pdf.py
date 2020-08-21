@@ -4,6 +4,7 @@ from pdf_utils import MyPDFHandler,PDFHandleMode as mode
 import configparser
 import sys
 from imp import reload
+import time
 
 reload(sys)
 # sys.setdefaultencoding('utf-8')
@@ -21,6 +22,10 @@ def main():
     pdf_handler = MyPDFHandler(pdf_path,mode = mode.COPY)
     pdf_handler.add_bookmarks_by_read_txt(bookmark_file_path,page_offset = page_offset)
     pdf_handler.save2file(new_pdf_file_name)
+
+    input1 = input("输入e退出：")
+    if input1 == "E" or input1 == "e":
+        sys.exit()
 
 if __name__ == '__main__':
     main()
