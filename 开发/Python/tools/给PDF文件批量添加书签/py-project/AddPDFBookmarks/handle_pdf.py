@@ -23,8 +23,8 @@ def main():
     pdf_handler.add_bookmarks_by_read_txt(bookmark_file_path,page_offset = page_offset)
     pdf_handler.save2file(new_pdf_file_name)
 
-    input1 = input("输入e退出：")
-    if input1 == "E" or input1 == "e":
+    input_ = input("输入e退出：")
+    if input_ == "E" or input_ == "e":
         sys.exit()
 
 if __name__ == '__main__':
