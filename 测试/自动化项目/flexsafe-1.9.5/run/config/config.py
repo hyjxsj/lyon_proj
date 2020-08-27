@@ -10,14 +10,14 @@ from selenium import webdriver
 
 #all dir config
 #testcase dir
-testCase_dir = u"D:\\Code\\Github\\lyon_proj\\测试\\自动化项目\\flexsafe-1.9.5\\run\\core"
+testCase_dir = u"D:\\Code\\Github\\Lukas_proj\\测试\\自动化项目\\flexsafe-1.9.5\\run\\core"
 now = time.strftime("%Y-%m-%d %H_%M_%S")
-report_FilePath = u"D:\\Code\\Github\\lyon_proj\\测试\\自动化项目\\flexsafe-1.9.5\\run\\report\\"
-report_FileName = u"D:\\Code\\Github\\lyon_proj\\测试\\自动化项目\\flexsafe-1.9.5\\run\\report\\" + now + 'result.html'
+report_FilePath = u"D:\\Code\\Github\\Lukas_proj\\测试\\自动化项目\\flexsafe-1.9.5\\run\\report\\"
+report_FileName = u"D:\\Code\\Github\\Lukas_proj\\测试\\自动化项目\\flexsafe-1.9.5\\run\\report\\" + now + 'result.html'
 
 #para
-base_url = "http://192.168.0.109:8080/#!/login"
-
+host = "172.16.71.182"
+base_url = "http://{host}:8080/#!/login".format(host=host)
 #浏览器类型
 browser_type = "chrome"
 def browser_select():
