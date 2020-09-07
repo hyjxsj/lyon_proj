@@ -1,4 +1,4 @@
-#-*- coding:utf8 -*-
+#-*- coding:utf-8 -*-
 __author = "huia"
 
 html='''
@@ -21,6 +21,7 @@ html='''
 '''
 from bs4 import BeautifulSoup
 soup = BeautifulSoup(html, 'lxml')
-print(soup.find('ul'))
-print(type(soup.find('ul')))
+print(soup.find('ul'),'\n')
+print(type(soup.find('ul')),'\n')
 print(soup.find('page'))
+soup.find_all()

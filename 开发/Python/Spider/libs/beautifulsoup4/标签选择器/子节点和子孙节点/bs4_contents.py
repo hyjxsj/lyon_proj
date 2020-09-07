@@ -1,4 +1,4 @@
-#-*- coding:utf8 -*-
+#-*- coding:utf-8 -*-
 __author = "huia"
 
 html = """
@@ -22,3 +22,6 @@ html = """
 from bs4 import BeautifulSoup
 soup = BeautifulSoup(html, 'lxml')
 print(soup.p.contents)    #contents返回的是一整个list
+
+for i,chil in enumerate(soup.p.contents):
+    print(i,chil)
