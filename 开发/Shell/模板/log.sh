@@ -9,8 +9,6 @@
 
 LOG_DIR="/var/log"
 
-ROOT_UID="0"
-[ $ROOT_UID != "$UID" ] && { echo "Must be root to run this script.";exit 1; }
 
 cd $LOG_DIR || {
   echo "Cannot change to necessary directory." >&2
