@@ -27,39 +27,4 @@ if [[ X$user != Xroot ]];then
   exit 1
 fi
 
-#while循环
-#while1
-ls -d */ | while read directory
-do
-  cd  $directory
-done
-
-#while2
-i=1
-while(($i < 100))
-do
-  i=$(($i + 1))
-done
-
-
-#for循环
-#for1
-resource="a b c"
-for res in $resource
-do
-  cd $res && bash setup.sh
-done
-
-#for2
-for shname in `ls *.sh`
-do
-  name=`echo "$shname" | awk -F. '{print $1}'`
-  echo $name
-done
-
-#for3
-for (( i=1;i<10;i++))
-do
-  echo $i
-done
 
