@@ -7,7 +7,7 @@
 
 
 #while循环
-#while1
+#while1和for2类似，可以使用for2更直观、清晰
 ls -d */ | while read directory
 do
   cd  $directory
