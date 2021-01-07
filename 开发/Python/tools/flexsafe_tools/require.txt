@@ -23,7 +23,7 @@ greenlet==0.4.15
 idna==2.8
 jmespath==0.9.4
 loguru==0.2.5
-lxml==4.3.4
+lxml==4.6.2
 macholib==1.11
 Naked==0.1.31
 oss2==2.6.1
