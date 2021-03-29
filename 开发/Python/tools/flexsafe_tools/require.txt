@@ -34,7 +34,7 @@ pyasn1==0.4.5
 pycparser==2.19
 pycryptodome==3.8.1
 #pycurl==7.43.0
-Pygments==2.4.0
+Pygments==2.7.4
 #pygobject==3.20.0
 PyInstaller==3.4
 PyMySQL==0.9.3
