@@ -52,6 +52,6 @@ six==1.12.0
 ssh-import-id==5.5
 sshtunnel==0.1.4
 unattended-upgrades==0.1
-urllib3==1.24.3
+urllib3==1.26.5
 webdavclient==1.0.8
 zmail==0.2.3
